@@ -227,7 +227,7 @@ export const products: Product[] = [
   },
   
   {
-    id: "7",
+    id: "6",
     title: "Reebok Classic",
     description: "Timeless and stylish sneakers featuring a retro design, premium leather upper, and superior cushioning for all-day comfort and everyday street style.",
     price: 4999,
@@ -281,7 +281,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "11",
+    id: "7",
     title: "Men's Casual Shirt",
     description: "Slim fit cotton shirt designed for modern style and comfort. Ideal for casual outings, office wear, or semi-formal occasions.",
     price: 1499,
@@ -335,7 +335,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "12",
+    id: "8",
     title: "Women's Casual Dress",
     description: "Stylish and comfortable casual dress crafted from soft breathable fabric, perfect for daily wear, outings, or relaxed evenings.",
     price: 1999,
@@ -389,7 +389,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "13",
+    id: "9",
     title: "Boy's T-Shirt",
     description: "Fun and vibrant t-shirt designed for kids with soft cotton fabric, ensuring comfort and durability for active play.",
     price: 999,
@@ -443,7 +443,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "14",
+    id: "10",
     title: "Men's Formal Suit",
     description: "Premium formal suit crafted with precision tailoring and high-quality fabric, perfect for weddings, business meetings, and formal occasions.",
     price: 4999,
@@ -495,66 +495,10 @@ export const products: Product[] = [
       { label: "Set Includes", value: "Blazer + Trouser" }
     ]
   },
-  
-  {
-    id: "15",
-    title: "Mobile Phone",
-    description: "Modern smartphone packed with a powerful processor, immersive display, and high-resolution cameras, ideal for gaming, photography, and daily multitasking.",
-    price: 19999,
-    category: "electronics",
-    subCategory: "Mobile",
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60",
-    rating: 4.5,
-
-    brand: "Samsung / Realme / Xiaomi",
-    model: "2025 Edition",
-    color: "Black / Blue / Silver",
-    storage: "128GB",
-    ram: "6GB",
-    display: "6.5 inch Full HD+ AMOLED",
-    battery: "5000 mAh",
-    stock: 50,
-    discount: 10,
-    delivery: "2-3 Days Delivery",
-    replacement: "7 Days Replacement",
-
-    variants: [
-      {
-        color: "Black",
-        price: 19999,
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60"
-      },
-      {
-        color: "Blue",
-        price: 19499,
-        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60"
-      },
-      {
-        color: "Silver",
-        price: 20499,
-        image: "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&auto=format&fit=crop&q=60"
-      }
-    ],
-
-    features: [
-      "6.5 inch Full HD+ AMOLED Display",
-      "5000mAh long-lasting battery",
-      "50MP AI dual camera",
-      "Fast charging support",
-      "Side-mounted fingerprint sensor"
-    ],
-
-    specs: [
-      { label: "Display", value: "6.5 inch FHD+ AMOLED" },
-      { label: "RAM", value: "6GB" },
-      { label: "Storage", value: "128GB" },
-      { label: "Battery", value: "5000mAh" },
-      { label: "Processor", value: "Octa-core 5G" }
-    ]
-  },
+ 
 
   {
-    id: "16",
+    id: "12",
     title: "Laptop",
     description: "High-performance laptop designed for productivity, programming, and light gaming with fast SSD storage and smooth multitasking.",
     price: 49999,
@@ -605,7 +549,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "17",
+    id: "13",
     title: "Wireless Earbuds",
     description: "Premium wireless earbuds with immersive sound, active noise cancellation, and long battery life for music and calls on the go.",
     price: 9999,
@@ -654,7 +598,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "18",
+    id: "14",
     title: "Smartwatch",
     description: "Smart fitness watch with health tracking, smart notifications, and stylish design, perfect for everyday wear and workouts.",
     price: 19999,
@@ -704,7 +648,7 @@ export const products: Product[] = [
   }
   ,
   {
-    id: "19",
+    id: "15",
     title: "Sports Running Shoes",
     description: "High-performance running shoes built for speed, comfort, and durability. Designed with breathable materials and responsive cushioning for running, gym workouts, and daily sports activities.",
     price: 8999,
@@ -763,7 +707,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "20",
+    id: "16",
     title: "Basketball Sneakers",
     description: "High-performance basketball sneakers offering superior ankle support, grip, and shock absorption for intense matches on indoor and outdoor courts.",
     price: 7999,
@@ -817,7 +761,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "21",
+    id: "17",
     title: "Tennis Shoes",
     description: "Lightweight and flexible tennis shoes built for speed, agility, and stability during matches and training sessions.",
     price: 6999,
@@ -871,7 +815,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "22",
+    id: "18",
     title: "Track Suits",
     description: "Comfortable and stylish track suits designed for workouts, sports, and casual wear with breathable and flexible fabric.",
     price: 2999,
@@ -925,7 +869,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "23",
+    id: "19",
     title: "Yoga Pants",
     description: "Stretchable and comfortable yoga pants designed for flexibility, breathability, and all-day comfort during workouts or casual wear.",
     price: 1999,
@@ -980,7 +924,7 @@ export const products: Product[] = [
   ,
   
   {
-    id: "24",
+    id: "20",
     title: "Sarees",
     description: "Elegant and traditional sarees crafted with premium fabric and intricate detailing, perfect for weddings, festivals, and special occasions.",
     price: 2999,
@@ -1034,7 +978,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "25",
+    id: "21",
     title: "Panjabi Suits",
     description: "Traditional and stylish Panjabi suits designed with elegant patterns and premium fabric, ideal for festivals, weddings, and cultural events.",
     price: 3999,
@@ -1087,65 +1031,9 @@ export const products: Product[] = [
     ]
   },
 
-  {
-    id: "26",
-    title: "Mobile Phone",
-    description: "Advanced smartphone with powerful performance, immersive display, and high-quality camera, perfect for gaming, photography, and daily use.",
-    price: 19999,
-    category: "electronics",
-    subCategory: "Mobile",
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60",
-    rating: 4.5,
-
-    brand: "Samsung / Realme / Xiaomi",
-    model: "2025 Edition",
-    color: "Black / Blue / Silver",
-    storage: "128GB",
-    ram: "6GB",
-    display: "6.5 inch AMOLED FHD+",
-    battery: "5000 mAh",
-    stock: 50,
-    discount: 10,
-    delivery: "2-3 Days Delivery",
-    replacement: "7 Days Replacement",
-
-    variants: [
-      {
-        color: "Black",
-        price: 19999,
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60"
-      },
-      {
-        color: "Blue",
-        price: 19499,
-        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60"
-      },
-      {
-        color: "Silver",
-        price: 20499,
-        image: "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&auto=format&fit=crop&q=60"
-      }
-    ],
-
-    features: [
-      "AMOLED Full HD+ display",
-      "5000mAh battery",
-      "50MP AI camera",
-      "Fast charging",
-      "Fingerprint unlock"
-    ],
-
-    specs: [
-      { label: "Display", value: "6.5 inch AMOLED" },
-      { label: "RAM", value: "6GB" },
-      { label: "Storage", value: "128GB" },
-      { label: "Battery", value: "5000mAh" },
-      { label: "Processor", value: "Octa-core 5G" }
-    ]
-  },
 
   {
-    id: "27",
+    id: "23",
     title: "Laptop",
     description: "Powerful and reliable laptop built for work, study, coding, and entertainment with fast performance and sleek design.",
     price: 49999,
@@ -1196,7 +1084,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "28",
+    id: "24",
     title: "Wireless Earbuds",
     description: "Premium wireless earbuds delivering immersive sound, deep bass, and active noise cancellation for calls and music.",
     price: 9999,
@@ -1245,7 +1133,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "29",
+    id: "25",
     title: "Smartwatch",
     description: "Smartwatch with advanced fitness tracking, notifications, and stylish design for everyday use.",
     price: 19999,
@@ -1297,7 +1185,7 @@ export const products: Product[] = [
   ,
   
   {
-    id: "30",
+    id: "26",
     title: "Sarees",
     description: "Elegant sarees crafted with premium silk blend fabric, featuring intricate embroidery and vibrant colors, perfect for festive occasions and weddings.",
     price: 2999,
@@ -1351,7 +1239,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "31",
+    id: "27",
     title: "Panjabi Suits",
     description: "Stylish traditional Panjabi suits made with premium cotton silk fabric, offering comfort and elegance for festive and cultural occasions.",
     price: 3999,
@@ -1405,64 +1293,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "32",
-    title: "Mobile Phone",
-    description: "Next-gen smartphone with high-speed performance, stunning display, and advanced camera features for everyday use and gaming.",
-    price: 19999,
-    category: "electronics",
-    subCategory: "Mobile",
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60",
-    rating: 4.6,
-
-    brand: "Samsung / Realme / Xiaomi",
-    model: "2025 Edition",
-    color: "Black / Blue / Silver",
-    storage: "128GB",
-    ram: "6GB",
-    display: "6.5 inch AMOLED FHD+",
-    battery: "5000 mAh",
-    stock: 55,
-    discount: 10,
-    delivery: "2-3 Days Delivery",
-    replacement: "7 Days Replacement",
-
-    variants: [
-      {
-        color: "Black",
-        price: 19999,
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60"
-      },
-      {
-        color: "Blue",
-        price: 19499,
-        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop&q=60"
-      },
-      {
-        color: "Silver",
-        price: 20499,
-        image: "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&auto=format&fit=crop&q=60"
-      }
-    ],
-
-    features: [
-      "AMOLED display",
-      "50MP AI camera",
-      "Fast charging",
-      "Long battery life",
-      "Fingerprint unlock"
-    ],
-
-    specs: [
-      { label: "Display", value: "6.5 inch AMOLED" },
-      { label: "RAM", value: "6GB" },
-      { label: "Storage", value: "128GB" },
-      { label: "Battery", value: "5000mAh" },
-      { label: "Processor", value: "Octa-core 5G" }
-    ]
-  },
-
-  {
-    id: "33",
+    id: "29",
     title: "Laptop",
     description: "High-performance laptop designed for productivity, coding, and entertainment with powerful specs and sleek design.",
     price: 49999,
@@ -1512,10 +1343,11 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "76",
+    id: "30",
     title: "Mobile Phone",
     description: "Next-gen smartphone with high-speed performance, stunning display, and advanced camera features for everyday use and gaming.",
     category: "electronics",
+      price: 19999,
     subCategory: "Mobile",
     image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60",
     rating: 4.6,
@@ -1588,14 +1420,14 @@ export const products: Product[] = [
       { label: "Camera", value: "50MP AI Camera" },
       { label: "OS", value: "Android 14" },
       { label: "Network", value: "5G" }
-    ],
-    price: 0
+    ]
   },
   {
-    id: "77",
+    id: "31",
     title: "Laptop",
     description: "High-performance laptop designed for productivity, coding, and entertainment with powerful specs and sleek design.",
     category: "electronics",
+    price: 49999,
     subCategory: "Laptops",
     image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop&q=60",
     rating: 4.7,
@@ -1659,12 +1491,11 @@ export const products: Product[] = [
       { label: "Battery", value: "6 Hours Backup" },
       { label: "Weight", value: "1.7kg" },
       { label: "OS", value: "Windows 11" }
-    ],
-    price: 0
+    ]
   },
 
   {
-    id: "34",
+    id: "32",
     title: "Wireless Earbuds",
     description: "Wireless earbuds with premium sound quality, deep bass, and noise cancellation for music lovers and professionals.",
     price: 9999,
@@ -1713,7 +1544,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "35",
+    id: "33",
     title: "Smartwatch",
     description: "Advanced smartwatch with fitness tracking, notifications, and stylish design for modern lifestyle.",
     price: 19999,
@@ -1763,7 +1594,7 @@ export const products: Product[] = [
   },
   
   {
-    id: "44",
+    id: "34",
     title: "Kids Educational Toys",
     description: "Fun and educational toys designed to improve creativity, learning, and motor skills in children.",
     price: 999,
@@ -1803,7 +1634,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "45",
+    id: "35",
     title: "Board Games Set",
     description: "Classic board games set perfect for family entertainment and group fun.",
     price: 1499,
@@ -1842,7 +1673,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "47",
+    id: "36",
     title: "LED Table Lamp",
     description: "Modern LED lamp with adjustable brightness and eye protection, ideal for study and office use.",
     price: 1299,
@@ -1883,7 +1714,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "48",
+    id: "37",
     title: "Acoustic Guitar",
     description: "High-quality acoustic guitar with rich sound, perfect for beginners and professionals.",
     price: 5999,
@@ -1902,7 +1733,7 @@ export const products: Product[] = [
 
     variants: [
       { color: "Brown", price: 5999, image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600" },
-      { color: "Black", price: 6199, image: "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=600" }
+      { color: "Black", price: 6199, image: "https://images.unsplash.com/photo-1514649923863-ceaf75b7ec00?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
 
     features: [
@@ -1923,7 +1754,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "49",
+    id: "38",
     title: "Skin Care Kit",
     description: "Complete skincare kit for glowing and healthy skin with daily essentials.",
     price: 1899,
@@ -1962,7 +1793,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "50",
+    id: "39",
     title: "Remote Control Car",
     description: "High-speed RC car with strong build and long battery life for kids entertainment.",
     price: 1499,
@@ -2001,58 +1832,10 @@ export const products: Product[] = [
       { label: "Age Group", value: "5+" },
       { label: "Warranty", value: "6 Months" }
     ]
-  },{
-  id: "105",
-  title: "iPhone 14",
-  description: "Powerful smartphone with A15 Bionic chip and stunning display.",
-  price: 79999,
-  category: "electronics",
-  subCategory: "mobile",
-  image: "https://images.unsplash.com/photo-1664478546381-1f6d7c3c7eca?w=600",
-  rating: 4.8,
-
-  brand: "Apple",
-  display: "6.1 inch Super Retina XDR",
-  camera: "12MP Dual Camera",
-  battery: "3279 mAh",
-  processor: "A15 Bionic",
-
-  stock: 20,
-  discount: 5,
-  delivery: "2-3 Days Delivery",
-  replacement: "7 Days Replacement",
-
-  variants: [
-    {
-      storage: "128GB",
-      price: 79999,
-      image: "https://images.unsplash.com/photo-1664478546381-1f6d7c3c7eca?w=600"
-    },
-    {
-      storage: "256GB",
-      price: 89999,
-      image: "https://images.unsplash.com/photo-1664478546381-1f6d7c3c7eca?w=600"
-    }
-  ],
-
-  features: [
-    "A15 Bionic Chip",
-    "Super Retina Display",
-    "Face ID",
-    "5G Supported",
-    "Premium Build"
-  ],
-
-  specs: [
-    { label: "Display", value: "6.1 inch" },
-    { label: "Processor", value: "A15" },
-    { label: "Camera", value: "12MP Dual" },
-    { label: "Battery", value: "3279 mAh" },
-    { label: "Warranty", value: "1 Year" }
-  ]
-},
+  },
+ 
 {
-  id: "73",
+  id: "41",
   title: "Studio Microphone",
   description: "High-quality condenser microphone for recording and streaming.",
   price: 3499,
@@ -2100,7 +1883,7 @@ export const products: Product[] = [
   ]
 },
 {
-  id: "75",
+  id: "42",
   title: "Face Wash",
   description: "Gentle face wash for daily skincare routine.",
   price: 299,
@@ -2147,2346 +1930,1706 @@ export const products: Product[] = [
   ]
 },
 
+{
+  id: "43",
+  title: "Bunk Bed",
+  description: "Space saving bunk bed for kids. Strong and stylish bunk bed suitable for modern homes.",
+  price: 15999,
+  category: "Furniture",
+  subCategory: "Bed",
+  rating: 4.5,
+  image: "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+  brand: "IKEA",
+  material: ["Wood", "Metal", "Fabric"],
+  warranty: "1 Year Warranty",
+  stock: 25,
+  discount: 12,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
 
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Durable Material",
+    "Easy Assembly",
+    "Space Saving Design",
+    "Safety Guard Rails",
+    "Ladder Included"
+  ],
+
+  specs: [
+    { label: "Material", value: "Solid Wood & Metal" },
+    { label: "Bed Size", value: "Single / Double" },
+    { label: "Storage", value: "Available" },
+    { label: "Finish", value: "Matte Finish" },
+    { label: "Weight Capacity", value: "120kg Each Bed" },
+    { label: "Warranty", value: "1 Year" }
+  ],
+
+  variants: [
+    {
+      color: "Brown",
+      size: "Single",
+      storage: "No",
+      price: 15999,
+      image: "https://images.unsplash.com/photo-1586105251261-72a756497a11"
+    },
+    {
+      color: "Brown",
+      size: "Single",
+      storage: "Yes",
+      price: 17999,
+      image: "https://images.unsplash.com/photo-1586105251261-72a756497a11"
+    },
+    {
+      color: "White",
+      size: "Double",
+      storage: "No",
+      price: 18999,
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+    },
+    {
+      color: "White",
+      size: "Double",
+      storage: "Yes",
+      price: 20999,
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+    }
+  ]
+},
+{
+  id: "45",
+  title: "Sony Alpha Mirrorless Camera",
+  description: "Compact mirrorless camera with excellent image quality.",
+    price: 74999,
+  category: "Electronics",
+  subCategory: "Camera",
+  image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600",
+  rating: 4.8,
+
+  brand: "Sony",
+  warranty: "2 Years Warranty",
+  stock: 8,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Black",
+      storage: "128GB",
+      price: 74999,
+      discount: 8,
+      image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd"
+    },
+    {
+      color: "Silver",
+      storage: "256GB",
+      price: 78999,
+      discount: 10,
+      image: "https://images.unsplash.com/photo-1519183071298-a2962be96f83"
+    }
+  ],
+
+  features: [
+    "24.2 MP Sensor",
+    "4K Video Recording",
+    "Fast Auto Focus",
+    "WiFi & Bluetooth",
+    "Compact Design"
+  ],
+
+  specs: [
+    { label: "Resolution", value: "24.2 MP" },
+    { label: "Sensor", value: "APS-C CMOS" },
+    { label: "Video", value: "4K" },
+    { label: "Connectivity", value: "WiFi + Bluetooth" },
+    { label: "Warranty", value: "2 Years" }
+  ],
+
+
+},{
+  id: "46",
+  title: "Nikon Z50 Camera",
+  description: "Lightweight mirrorless camera perfect for travel photography.",
+   price: 67999,
+  category: "Electronics",
+  subCategory: "Camera",
+  image: "https://images.unsplash.com/photo-1519183071298-a2962be96f83?w=600",
+  rating: 4.6,
+
+  brand: "Nikon",
+  warranty: "2 Years Warranty",
+  stock: 12,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Black",
+      storage: "64GB",
+      price: 68999,
+      discount: 9,
+      image: "https://images.unsplash.com/photo-1519183071298-a2962be96f83"
+    },
+    {
+      color: "Black",
+      storage: "128GB",
+      price: 70999,
+      discount: 10,
+      image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd"
+    }
+  ],
+
+  features: [
+    "20.9 MP Sensor",
+    "4K Video Recording",
+    "Compact Mirrorless Camera",
+    "Travel Friendly",
+    "WiFi & Bluetooth"
+  ],
+
+  specs: [
+    { label: "Resolution", value: "20.9 MP" },
+    { label: "Sensor", value: "APS-C CMOS" },
+    { label: "Video", value: "4K" },
+    { label: "Connectivity", value: "WiFi + Bluetooth" },
+    { label: "Warranty", value: "2 Years" }
+  ],
+
+ 
+},
+  {
+  id: "47",
+  title: "Non Stick Frying Pan",
+  description: "Durable non-stick frying pan perfect for everyday cooking.",
+  price: 899,
+  category: "Kitchen",
+  subCategory: "Cookware",
+  image: "https://plus.unsplash.com/premium_photo-1716488286931-79cef654e08c",
+  rating: 4.4,
+
+  brand: "Prestige",
+  material: ["Aluminium"],
+  warranty: "6 Months Warranty",
+  stock: 40,
+  discount: 10,
+  delivery: "2-4 Days Delivery",
+  replacement: "5 Days Replacement",
+
+  variants: [
+    {
+      size: "20cm",
+      color: "Black",
+      price: 899,
+      image: "https://plus.unsplash.com/premium_photo-1716488286931-79cef654e08c"
+    },
+    {
+      size: "24cm",
+      color: "Black",
+      price: 999,
+      image: "https://plus.unsplash.com/premium_photo-1716488286931-79cef654e08c"
+    },
+    {
+      size: "28cm",
+      color: "Red",
+      price: 1199,
+      image: "https://images.unsplash.com/photo-1584990347449-8c03c8e8a2d1"
+    }
+  ],
+
+  features: [
+    "Non-stick Coating",
+    "Aluminium Body",
+    "Heat Resistant Handle",
+    "Induction Compatible",
+    "Easy to Clean"
+  ],
+
+  specs: [
+    { label: "Material", value: "Aluminium" },
+    { label: "Coating", value: "Non-stick" },
+    { label: "Compatibility", value: "Gas & Induction" },
+    { label: "Dishwasher Safe", value: "Yes" },
+    { label: "Warranty", value: "6 Months" }
+  ]
+},{
+  id: "70",
+  title: "Stainless Steel Cooking Pot",
+  description: "High quality stainless steel pot for boiling and cooking.",
+  price: 1299,
+  category: "Kitchen",
+  subCategory: "Cookware",
+  image: "https://plus.unsplash.com/premium_photo-1718735910395-94a28fbc9f6b",
+  rating: 4.5,
+
+  brand: "Pigeon",
+  material: ["Stainless Steel"],
+  warranty: "1 Year Warranty",
+  stock: 35,
+  discount: 8,
+  delivery: "2-4 Days Delivery",
+  replacement: "5 Days Replacement",
+
+  variants: [
+    {
+      size: "2 Litre",
+      price: 1299,
+      image: "https://plus.unsplash.com/premium_photo-1718735910395-94a28fbc9f6b"
+    },
+    {
+      size: "3 Litre",
+      price: 1499,
+      image: "https://plus.unsplash.com/premium_photo-1718735910395-94a28fbc9f6b"
+    },
+    {
+      size: "5 Litre",
+      price: 1799,
+      image: "https://images.unsplash.com/photo-1604908176997-4317b8b0b7a9"
+    }
+  ],
+
+  features: [
+    "Stainless Steel Body",
+    "Induction Compatible",
+    "Rust Resistant",
+    "Strong Handles",
+    "Dishwasher Safe"
+  ],
+
+  specs: [
+    { label: "Material", value: "Stainless Steel" },
+    { label: "Capacity", value: "Multiple Sizes" },
+    { label: "Compatibility", value: "Gas & Induction" },
+    { label: "Rust Resistant", value: "Yes" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+},
+{
+  id: "49",
+  title: "Knife Set",
+  description: "Sharp stainless steel kitchen knife set.",
+  price: 799,
+  category: "Kitchen",
+  subCategory: "Tools",
+  image: "https://images.unsplash.com/photo-1596633609591-e4e1e9e06b7f",
+  rating: 4.3,
+
+  brand: "Pigeon",
+  material: ["Stainless Steel"],
+  warranty: "6 Months Warranty",
+  stock: 50,
+  discount: 15,
+  delivery: "2-3 Days Delivery",
+  replacement: "5 Days Replacement",
+
+  variants: [
+    {
+      size: "3 Pieces",
+      price: 799,
+      image: "https://images.unsplash.com/photo-1596633609591-e4e1e9e06b7f"
+    },
+    {
+      size: "5 Pieces",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1596633609591-e4e1e9e06b7f"
+    },
+    {
+      size: "7 Pieces",
+      price: 1299,
+      image: "https://images.unsplash.com/photo-1604908554027-7c2b6b8d2c9d"
+    }
+  ],
+
+  features: [
+    "Sharp Stainless Steel Blades",
+    "Ergonomic Handle",
+    "Rust Resistant",
+    "Easy to Clean",
+    "Multiple Knife Options"
+  ],
+
+  specs: [
+    { label: "Material", value: "Stainless Steel" },
+    { label: "Pieces", value: "3 / 5 / 7" },
+    { label: "Rust Resistant", value: "Yes" },
+    { label: "Dishwasher Safe", value: "Yes" },
+    { label: "Warranty", value: "6 Months" }
+  ]
+},
+{
+  id: "50",
+  title: "Coffee",
+  description: "Authentic coffee",
+  price: 499,
+  category: "Food",
+  subCategory: "Beverages",
+  image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+  rating: 4.5,
+
+  brand: "Nescafe",
+  warranty: "No Warranty",
+  stock: 100,
+  discount: 5,
+  delivery: "2-3 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      weight: "100g",
+      flavor: "Classic",
+      price: 299,
+      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+    },
+    {
+      weight: "200g",
+      flavor: "Classic",
+      price: 499,
+      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+    },
+    {
+      weight: "500g",
+      flavor: "Classic",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+    },
+    {
+      weight: "200g",
+      flavor: "Strong",
+      price: 549,
+      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+    },
+    {
+      weight: "200g",
+      flavor: "Hazelnut",
+      price: 599,
+      image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735"
+    }
+  ],
+
+  features: [
+    "Rich Aroma",
+    "Instant Coffee Powder",
+    "Premium Quality Beans",
+    "Easy to Prepare",
+    "Strong Flavor"
+  ],
+
+  specs: [
+    { label: "Weight", value: "Multiple Options" },
+    { label: "Type", value: "Instant Coffee" },
+    { label: "Flavor", value: "Classic / Strong / Hazelnut" },
+    { label: "Shelf Life", value: "12 Months" },
+    { label: "Brand", value: "Nescafe" }
+  ]
+},
   
-  
-  
-  
-// {
-//   id: "101",
-//   title: "Toy Train Set",
-//   description: "Classic toy train set with tracks and multiple coaches.",
-//   price: 1199,
-//   category: "Toys",
-//   subCategory: "Vehicles",
-//   image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.4,
-
-//   brand: "ToyWorld",
-//   material: ["Plastic"],
-//   pieces: 30,
-//   ageGroup: "3+ Years",
-//   stock: 25,
-//   discount: 12,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Classic train toy",
-//     "Includes tracks and coaches",
-//     "Battery operated engine",
-//     "Durable plastic",
-//     "Easy to assemble"
-//   ],
-
-//   specs: [
-//     { label: "Type", value: "Train Set" },
-//     { label: "Material", value: "Plastic" },
-//     { label: "Number of Pieces", value: "30" },
-//     { label: "Age Group", value: "3+ Years" },
-//     { label: "Battery", value: "Yes" }
-//   ]
-// },
-// {
-//   id: "102",
-//   title: "Kids Drawing Board",
-//   description: "Magnetic drawing board that helps kids practice creativity.",
-//   price: 649,
-//   category: "Toys",
-//   subCategory: "Educational",
-//   image: "https://plus.unsplash.com/premium_photo-1684586995852-8e5bdeb16866?q=80&w=1170&auto=format&fit=crop",
-//   rating: 4.3,
-
-//   brand: "EduDraw",
-//   material: ["Plastic"],
-//   size: "Medium",
-//   ageGroup: "3+ Years",
-//   stock: 40,
-//   discount: 10,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Magnetic drawing board",
-//     "Reusable writing surface",
-//     "Improves creativity",
-//     "Lightweight and portable",
-//     "Safe for kids"
-//   ],
-
-//   specs: [
-//     { label: "Type", value: "Drawing Board" },
-//     { label: "Material", value: "Plastic" },
-//     { label: "Board Type", value: "Magnetic" },
-//     { label: "Age Group", value: "3+ Years" },
-//     { label: "Warranty", value: "No Warranty" }
-//   ]
-// },
-// {
-//   id: "103",
-//   title: "Mini Basketball Hoop Toy",
-//   description: "Indoor mini basketball hoop set for kids fun activities.",
-//   price: 899,
-//   category: "Toys",
-//   subCategory: "Sports Toys",
-//   image: "https://media.istockphoto.com/id/1334360516/photo/cute-baby-boy-having-fun-while-playing-basketball-with-parents-at-home.jpg",
-//   rating: 4.2,
-
-//   brand: "SportyFun",
-//   material:[ "Plastic"],
-//   items: "Hoop + Ball + Net",
-//   ageGroup: "5+ Years",
-//   stock: 30,
-//   discount: 11,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Indoor basketball hoop",
-//     "Wall mount design",
-//     "Improves physical activity",
-//     "Fun sports toy",
-//     "Easy installation"
-//   ],
-
-//   specs: [
-//     { label: "Type", value: "Basketball Hoop Toy" },
-//     { label: "Material", value: "Plastic" },
-//     { label: "Items Included", value: "Hoop + Ball + Net" },
-//     { label: "Age Group", value: "5+ Years" },
-//     { label: "Warranty", value: "No Warranty" }
-//   ]
-// },
-// {
-//   id: "104",
-//   title: "Toy Dinosaur Figure Set",
-//   description: "Realistic dinosaur figure toys perfect for kids who love dinosaurs.",
-//   price: 749,
-//   category: "Toys",
-//   subCategory: "Action Figures",
-//   image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.5,
-
-//   brand: "DinoWorld",
-//   material: ["Rubber & Plastic"],
-//   pieces: 12,
-//   ageGroup: "4+ Years",
-//   stock: 35,
-//   discount: 9,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Realistic dinosaur figures",
-//     "Educational toy",
-//     "Durable material",
-//     "Safe for kids",
-//     "Perfect for dinosaur lovers"
-//   ],
-
-//   specs: [
-//     { label: "Type", value: "Dinosaur Figures" },
-//     { label: "Material", value: "Rubber & Plastic" },
-//     { label: "Number of Pieces", value: "12" },
-//     { label: "Age Group", value: "4+ Years" },
-//     { label: "Warranty", value: "No Warranty" }
-//   ]
-// },
-// {
-//   id: "105",
-//   title: "iPhone 14 Smartphone",
-//   description: "Powerful smartphone with A15 Bionic chip and stunning display.",
-//   price: 79999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "https://images.unsplash.com/photo-1664478546381-1f6d7c3c7eca?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.8,
-
-//   brand: "Apple",
-//   storage: "128GB",
-//   ram: "6GB",
-//   display: "6.1 inch Super Retina XDR",
-//   camera: "12MP + 12MP Dual Camera",
-//   battery: "3279 mAh",
-//   processor: "A15 Bionic Chip",
-//   warranty: "1 Year Warranty",
-//   stock: 20,
-//   discount: 5,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "A15 Bionic Chip",
-//     "Super Retina XDR Display",
-//     "Dual Camera System",
-//     "Face ID",
-//     "5G Supported"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "128GB" },
-//     { label: "RAM", value: "6GB" },
-//     { label: "Display", value: "6.1 inch Super Retina XDR" },
-//     { label: "Camera", value: "12MP + 12MP" },
-//     { label: "Battery", value: "3279 mAh" },
-//     { label: "Processor", value: "A15 Bionic" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-// },
-// {
-//   id: "106",
-//   title: "Samsung Galaxy S22",
-//   description: "Premium Android smartphone with high performance and great camera.",
-//   price: 69999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.6,
-
-//   brand: "Samsung",
-//   storage: "128GB",
-//   ram: "8GB",
-//   display: "6.1 inch AMOLED",
-//   camera: "50MP + 12MP + 10MP",
-//   battery: "3700 mAh",
-//   processor: "Snapdragon 8 Gen 1",
-//   warranty: "1 Year Warranty",
-//   stock: 15,
-//   discount: 10,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Dynamic AMOLED Display",
-//     "50MP Triple Camera",
-//     "8GB RAM",
-//     "5G Supported",
-//     "Fast Charging"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "128GB" },
-//     { label: "RAM", value: "8GB" },
-//     { label: "Display", value: "6.1 inch AMOLED" },
-//     { label: "Camera", value: "50MP + 12MP + 10MP" },
-//     { label: "Battery", value: "3700 mAh" },
-//     { label: "Processor", value: "Snapdragon 8 Gen 1" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-// },
-// {
-//   id: "107",
-//   title: "OnePlus 11 5G",
-//   description: "Fast and smooth smartphone with powerful Snapdragon processor.",
-//   price: 56999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "https://images.unsplash.com/photo-1678911820864-e0c9e3cfd540?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.7,
-
-//   brand: "OnePlus",
-//   storage: "256GB",
-//   ram: "12GB",
-//   display: "6.7 inch AMOLED",
-//   camera: "50MP + 48MP + 32MP",
-//   battery: "5000 mAh",
-//   processor: "Snapdragon 8 Gen 2",
-//   warranty: "1 Year Warranty",
-//   stock: 18,
-//   discount: 12,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "120Hz AMOLED Display",
-//     "Snapdragon 8 Gen 2",
-//     "Fast Charging",
-//     "Triple Camera",
-//     "5G Supported"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "256GB" },
-//     { label: "RAM", value: "12GB" },
-//     { label: "Display", value: "6.7 inch AMOLED" },
-//     { label: "Camera", value: "50MP + 48MP + 32MP" },
-//     { label: "Battery", value: "5000 mAh" },
-//     { label: "Processor", value: "Snapdragon 8 Gen 2" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-// },
-// {
-//   id: "108",
-//   title: "Realme Narzo 60",
-//   description: "Budget friendly smartphone with great battery life.",
-//   price: 14999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.3,
-
-//   brand: "Realme",
-//   storage: "128GB",
-//   ram: "6GB",
-//   display: "6.5 inch IPS LCD",
-//   camera: "64MP + 2MP",
-//   battery: "5000 mAh",
-//   processor: "MediaTek Helio G96",
-//   warranty: "1 Year Warranty",
-//   stock: 25,
-//   discount: 8,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Large Display",
-//     "64MP Camera",
-//     "5000 mAh Battery",
-//     "Budget Phone",
-//     "Fast Charging"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "128GB" },
-//     { label: "RAM", value: "6GB" },
-//     { label: "Display", value: "6.5 inch IPS LCD" },
-//     { label: "Camera", value: "64MP + 2MP" },
-//     { label: "Battery", value: "5000 mAh" },
-//     { label: "Processor", value: "MediaTek Helio G96" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-// },
-// {
-//   id: "109",
-//   title: "Canon EOS DSLR Camera",
-//   description: "Professional DSLR camera for high quality photography.",
-//   price: 45999,
-//   category: "Electronics",
-//   subCategory: "Camera",
-//   image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.7,
-
-//   brand: "Canon",
-//   resolution: "24.1 MP",
-//   sensor: "APS-C CMOS",
-//   video: "Full HD",
-//   connectivity: "WiFi",
-//   warranty: "2 Years Warranty",
-//   stock: 10,
-//   discount: 10,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "24.1 MP Camera",
-//     "Full HD Video Recording",
-//     "WiFi Connectivity",
-//     "Professional Photography",
-//     "Interchangeable Lens"
-//   ],
-
-//   specs: [
-//     { label: "Resolution", value: "24.1 MP" },
-//     { label: "Sensor", value: "APS-C CMOS" },
-//     { label: "Video", value: "Full HD" },
-//     { label: "Connectivity", value: "WiFi" },
-//     { label: "Warranty", value: "2 Years" }
-//   ]
-// },
-// {
-//   id: "110",
-//   title: "Sony Alpha Mirrorless Camera",
-//   description: "Compact mirrorless camera with excellent image quality.",
-//   price: 74999,
-//   category: "Electronics",
-//   subCategory: "Camera",
-//   image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.8,
-
-//   brand: "Sony",
-//   resolution: "24.2 MP",
-//   sensor: "APS-C CMOS",
-//   video: "4K Video",
-//   connectivity: "WiFi + Bluetooth",
-//   warranty: "2 Years Warranty",
-//   stock: 8,
-//   discount: 8,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "24.2 MP Sensor",
-//     "4K Video Recording",
-//     "Fast Auto Focus",
-//     "WiFi & Bluetooth",
-//     "Compact Design"
-//   ],
-
-//   specs: [
-//     { label: "Resolution", value: "24.2 MP" },
-//     { label: "Sensor", value: "APS-C CMOS" },
-//     { label: "Video", value: "4K" },
-//     { label: "Connectivity", value: "WiFi + Bluetooth" },
-//     { label: "Warranty", value: "2 Years" }
-//   ]
-// },
-// {
-//   id: "111",
-//   title: "Nikon Z50 Camera",
-//   description: "Lightweight mirrorless camera perfect for travel photography.",
-//   price: 68999,
-//   category: "Electronics",
-//   subCategory: "Camera",
-//   image: "https://images.unsplash.com/photo-1519183071298-a2962be96f83?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.6,
-
-//   brand: "Nikon",
-//   resolution: "20.9 MP",
-//   sensor: "APS-C CMOS",
-//   video: "4K Video",
-//   connectivity: "WiFi + Bluetooth",
-//   warranty: "2 Years Warranty",
-//   stock: 12,
-//   discount: 9,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "20.9 MP Sensor",
-//     "4K Video Recording",
-//     "Compact Mirrorless Camera",
-//     "Travel Friendly",
-//     "WiFi & Bluetooth"
-//   ],
-
-//   specs: [
-//     { label: "Resolution", value: "20.9 MP" },
-//     { label: "Sensor", value: "APS-C CMOS" },
-//     { label: "Video", value: "4K" },
-//     { label: "Connectivity", value: "WiFi + Bluetooth" },
-//     { label: "Warranty", value: "2 Years" }
-//   ]
-// }
-// ,{
-//   id: "112",
-//   title: "GoPro Action Camera",
-//   description: "Waterproof action camera for adventure and sports shooting.",
-//   price: 32999,
-//   category: "Electronics",
-//   subCategory: "Camera",
-//   image: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&auto=format&fit=crop&q=60",
-//   rating: 4.5,
-
-//   brand: "GoPro",
-//   resolution: "27 MP",
-//   sensor: "CMOS Sensor",
-//   video: "5.3K Video",
-//   connectivity: "WiFi + Bluetooth",
-//   warranty: "1 Year Warranty",
-//   stock: 18,
-//   discount: 12,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "27 MP Photo Resolution",
-//     "5.3K Video Recording",
-//     "Waterproof Camera",
-//     "HyperSmooth Stabilization",
-//     "WiFi & Bluetooth"
-//   ],
-
-//   specs: [
-//     { label: "Resolution", value: "27 MP" },
-//     { label: "Sensor", value: "CMOS" },
-//     { label: "Video", value: "5.3K" },
-//     { label: "Connectivity", value: "WiFi + Bluetooth" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-
-// },{
-//   id: "120",
-//   title: "Non Stick Frying Pan",
-//   description: "Durable non-stick frying pan perfect for everyday cooking.",
-//   price: 899,
-//   category: "Kitchen",
-//   subCategory: "Cookware",
-//   image: "https://plus.unsplash.com/premium_photo-1716488286931-79cef654e08c?q=80&w=1180&auto=format&fit=crop",
-//   rating: 4.4,
-
-//   brand: "Prestige",
-//   material:[ "Aluminium"],
-//   // coating: "Non-stick",
-//   warranty: "6 Months Warranty",
-//   stock: 40,
-//   discount: 10,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "5 Days Replacement",
-
-//   features: [
-//     "Non-stick Coating",
-//     "Aluminium Body",
-//     "Heat Resistant Handle",
-//     "Induction Compatible",
-//     "Easy to Clean"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Aluminium" },
-//     { label: "Coating", value: "Non-stick" },
-//     { label: "Compatibility", value: "Gas & Induction" },
-//     { label: "Dishwasher Safe", value: "Yes" },
-//     { label: "Warranty", value: "6 Months" }
-//   ]
-// },
-// {
-//   id: "121",
-//   title: "Stainless Steel Cooking Pot",
-//   description: "High quality stainless steel pot for boiling and cooking.",
-//   price: 1299,
-//   category: "Kitchen",
-//   subCategory: "Cookware",
-//   image: "https://plus.unsplash.com/premium_photo-1718735910395-94a28fbc9f6b",
-//   rating: 4.5,
-
-//   brand: "Pigeon",
-//   material:[ "Stainless Steel"],
-//   capacity: "3 Litres",
-//   warranty: "1 Year Warranty",
-//   stock: 35,
-//   discount: 8,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "5 Days Replacement",
-
-//   features: [
-//     "Stainless Steel Body",
-//     "Induction Compatible",
-//     "Rust Resistant",
-//     "Strong Handles",
-//     "Dishwasher Safe"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Stainless Steel" },
-//     { label: "Capacity", value: "3 Litres" },
-//     { label: "Compatibility", value: "Gas & Induction" },
-//     { label: "Rust Resistant", value: "Yes" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-// },{
-//   id: "122",
-//   title: "Knife Set",
-//   description: "Sharp stainless steel kitchen knife set.",
-//   price: 799,
-//   category: "Kitchen",
-//   subCategory: "Tools",
-//   image: "https://images.unsplash.com/photo-1596633609591-e4e1e9e06b7f",
-//   rating: 4.3,
-
-//   brand: "Pigeon",
-//   material: ["Stainless Steel"],
-//   // pieces: "5 Pieces",
-//   warranty: "6 Months Warranty",
-//   stock: 50,
-//   discount: 15,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "5 Days Replacement",
-
-//   features: [
-//     "5 Piece Knife Set",
-//     "Sharp Stainless Steel Blades",
-//     "Ergonomic Handle",
-//     "Rust Resistant",
-//     "Easy to Clean"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Stainless Steel" },
-//     { label: "Pieces", value: "5" },
-//     { label: "Rust Resistant", value: "Yes" },
-//     { label: "Dishwasher Safe", value: "Yes" },
-//     { label: "Warranty", value: "6 Months" }
-//   ]
-// },{
-//   id: "123",
-//   title: "Cutting Board",
-//   description: "Strong wooden cutting board for vegetables and meat.",
-//   price: 399,
-//   category: "Kitchen",
-//   subCategory: "Tools",
-//   image: "https://plus.unsplash.com/premium_photo-1714702846875-ca3a149c0592",
-//   rating: 4.2,
-
-//   brand: "Solimo",
-//   material: ["Wood"],
-//   warranty: "6 Months Warranty",
-//   stock: 60,
-//   discount: 5,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "5 Days Replacement",
-
-//   features: [
-//     "Strong Wooden Board",
-//     "Non-slip Base",
-//     "Reversible Use",
-//     "Knife Friendly Surface",
-//     "Easy to Wash"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood" },
-//     { label: "Non-slip", value: "Yes" },
-//     { label: "Reversible", value: "Yes" },
-//     { label: "Eco Friendly", value: "Yes" },
-//     { label: "Warranty", value: "6 Months" }
-//   ]
-// },{
-//   id: "130",
-//   title: "iPhone 13",
-//   description: "Powerful Apple smartphone with A15 Bionic chip.",
-//   price: 69999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "data:image/webp;base64,...",
-//   rating: 4.8,
-
-//   brand: "Apple",
-//   storage: "128GB",
-//   display: "6.1 inch Super Retina XDR",
-//   processor: "A15 Bionic",
-//   camera: "12MP Dual Camera",
-//   battery: "3240mAh",
-//   warranty: "1 Year Warranty",
-//   stock: 20,
-//   discount: 6,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "A15 Bionic Chip",
-//     "Super Retina XDR Display",
-//     "12MP Dual Camera",
-//     "Face ID",
-//     "Fast Charging Support"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "128GB" },
-//     { label: "Display", value: "6.1 inch" },
-//     { label: "Processor", value: "A15 Bionic" },
-//     { label: "Camera", value: "12MP Dual" },
-//     { label: "Battery", value: "3240mAh" }
-//   ]
-// },{
-//   id: "131",
-//   title: "Samsung Galaxy S23",
-//   description: "Premium Android smartphone with great performance.",
-//   price: 74999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "data:image/webp;base64,...",
-//   rating: 4.7,
-
-//   brand: "Samsung",
-//   storage: "256GB",
-//   display: "6.1 inch Dynamic AMOLED",
-//   processor: "Snapdragon 8 Gen 2",
-//   camera: "50MP + 12MP + 10MP",
-//   battery: "3900mAh",
-//   warranty: "1 Year Warranty",
-//   stock: 15,
-//   discount: 10,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Snapdragon 8 Gen 2 Processor",
-//     "Dynamic AMOLED Display",
-//     "50MP Triple Camera",
-//     "5G Supported",
-//     "Fast Charging"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "256GB" },
-//     { label: "Display", value: "6.1 inch AMOLED" },
-//     { label: "Processor", value: "Snapdragon 8 Gen 2" },
-//     { label: "Camera", value: "50MP Triple Camera" },
-//     { label: "Battery", value: "3900mAh" }
-//   ]
-// },{
-//   id: "132",
-//   title: "OnePlus Nord CE",
-//   description: "Fast and smooth 5G smartphone.",
-//   price: 27999,
-//   category: "Electronics",
-//   subCategory: "Mobile",
-//   image: "https://oasis.opstatics.com/content/dam/oasis/page/2021/ebba/spec/Silver-Ray.png",
-//   rating: 4.5,
-
-//   brand: "OnePlus",
-//   storage: "128GB",
-//   display: "6.43 inch AMOLED",
-//   processor: "Snapdragon 750G",
-//   camera: "64MP + 8MP + 2MP",
-//   battery: "4500mAh",
-//   warranty: "1 Year Warranty",
-//   stock: 25,
-//   discount: 12,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "AMOLED Display",
-//     "64MP Triple Camera",
-//     "5G Supported",
-//     "Fast Charging",
-//     "Slim Design"
-//   ],
-
-//   specs: [
-//     { label: "Storage", value: "128GB" },
-//     { label: "Display", value: "6.43 inch AMOLED" },
-//     { label: "Processor", value: "Snapdragon 750G" },
-//     { label: "Camera", value: "64MP Triple Camera" },
-//     { label: "Battery", value: "4500mAh" }
-//   ]
-// },{
-//   id: "133",
-//   title: "Coffee",
-//   description: "Authentic coffee",
-//   price: 499,
-//   category: "Food",
-//   subCategory: "Beverages",
-//   image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
-//   rating: 4.5,
-
-//   brand: "Nescafe",
-//   weight: "200g",
-//   type: "Instant Coffee",
-//   flavor: "Classic",
-//   warranty: "No Warranty",
-//   stock: 100,
-//   discount: 5,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "No Replacement",
-
-//   features: [
-//     "Rich Aroma",
-//     "Instant Coffee Powder",
-//     "Premium Quality Beans",
-//     "Easy to Prepare",
-//     "Strong Flavor"
-//   ],
-
-//   specs: [
-//     { label: "Weight", value: "200g" },
-//     { label: "Type", value: "Instant Coffee" },
-//     { label: "Flavor", value: "Classic" },
-//     { label: "Shelf Life", value: "12 Months" },
-//     { label: "Brand", value: "Nescafe" }
-//   ]
-// },
-
-//   {
-//     id: "134",
-//     title: "Men's Casual Shirt",
-//     description: "Comfortable cotton casual shirt for men.",
-//     price: 999,
-//     category: "fashion",
-//     subCategory: "Men",
-//     image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
-//     rating: 4.2,
-//     brand: "Levi's",
-//     fabric: "100% Cotton",
-//     color: "Blue",
-//     sizes: ["S", "M", "L", "XL", "XXL"],
-//     stock: 35,
-//     discount: 10,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-//     features: [
-//       "Soft and breathable cotton",
-//       "Regular fit for comfort",
-//       "Durable stitching",
-//       "Versatile for casual wear"
-//     ],
-//     specs: [
-//       { label: "Fabric", value: "100% Cotton" },
-//       { label: "Fit", value: "Regular Fit" },
-//       { label: "Sleeve", value: "Full Sleeve" },
-//       { label: "Collar", value: "Classic Collar" },
-//       { label: "Occasion", value: "Casual / Daily Wear" }
-//     ]
-//   },
-//   {
-//     id: "135",
-//     title: "Women's Handbag",
-//     description: "Stylish handbag for women.",
-//     price: 1499,
-//     category: "fashion",
-//     subCategory: "Women",
-//     image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
-//     rating: 4.4,
-//     brand: "Michael Kors",
-//     material: ["PU Leather"],
-//     color: "Black",
-//     sizes: ["One Size"],
-//     stock: 40,
-//     discount: 12,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-//     features: [
-//       "Elegant design with durable material",
-//       "Multiple compartments for storage",
-//       "Adjustable strap for comfort",
-//       "Perfect for casual and formal use"
-//     ],
-//     specs: [
-//       { label: "Material", value: "PU Leather" },
-//       { label: "Compartments", value: "3" },
-//       { label: "Closure Type", value: "Zipper" },
-//       { label: "Occasion", value: "Casual / Formal" },
-//       { label: "Size", value: "Medium" }
-//     ]
-//   },
-//   {
-//     id: "136",
-//     title: "Kids T-shirt",
-//     description: "Soft cotton t-shirt for children.",
-//     price: 499,
-//     category: "fashion",
-//     subCategory: "Children",
-//     image: "https://images.unsplash.com/photo-1585386959984-a41552231658",
-//     rating: 4.1,
-//     brand: "H&M",
-//     fabric: "100% Cotton",
-//     color: "Yellow",
-  
-//     stock: 50,
-//     discount: 8,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-//     features: [
-//       "Soft and breathable fabric",
-//       "Easy to wash and maintain",
-//       "Comfortable fit for children",
-//       "Bright and playful design"
-//     ],
-//     specs: [
-//       { label: "Fabric", value: "100% Cotton" },
-//       { label: "Fit", value: "Regular Fit" },
-//       { label: "Sleeve", value: "Short Sleeve" },
-//       { label: "Neck", value: "Round Neck" },
-//       { label: "Occasion", value: "Casual / Playtime" }
-//     ]
-//   }
-// ,
-// {
-//   id: "137",
-//   title: "Gaming Laptop",
-//   description: "High performance gaming laptop.",
-//   price: 75000,
-//   category: "Electronics",
-//   subCategory: "Laptop",
-//   image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
-//   rating: 4.6,
-
-//   brand: "ASUS",
-//   storage: "512GB SSD",
-//   display: "15.6 inch Full HD",
-//   processor: "Intel i7 12th Gen",
-//   graphics: "NVIDIA RTX 3050",
-//   ram: "16GB",
-//   battery: "6000mAh",
-//   warranty: "1 Year Warranty",
-//   stock: 10,
-//   discount: 15,
-//   delivery: "2-4 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Intel i7 12th Gen Processor",
-//     "16GB RAM",
-//     "512GB SSD Storage",
-//     "NVIDIA RTX 3050 Graphics",
-//     "Full HD Display"
-//   ],
-
-//   specs: [
-//     { label: "Processor", value: "Intel i7 12th Gen" },
-//     { label: "RAM", value: "16GB" },
-//     { label: "Storage", value: "512GB SSD" },
-//     { label: "Graphics", value: "RTX 3050" },
-//     { label: "Display", value: "15.6 inch FHD" }
-//   ]
-// },{
-//   id: "138",
-//   title: "Wireless Mouse",
-//   description: "Smooth wireless mouse.",
-//   price: 799,
-//   category: "Electronics",
-//   subCategory: "Accessories",
-//   image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
-//   rating: 4.3,
-
-//   brand: "Logitech",
-//   connectivity: "Wireless",
-//   battery: "AA Battery",
-//   warranty: "1 Year Warranty",
-//   stock: 50,
-//   discount: 20,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Wireless Connectivity",
-//     "Ergonomic Design",
-//     "Long Battery Life",
-//     "Smooth Tracking",
-//     "USB Receiver Included"
-//   ],
-
-//   specs: [
-//     { label: "Connectivity", value: "Wireless" },
-//     { label: "Battery", value: "AA Battery" },
-//     { label: "DPI", value: "1600 DPI" },
-//     { label: "Ergonomic", value: "Yes" },
-//     { label: "Warranty", value: "1 Year" }
-//   ]
-// }
-// ,{
-//   id: "139",
-//   title: "Fiction Story Book",
-//   description: "Interesting fiction novel.",
-//   price: 399,
-//   category: "Books",
-//   subCategory: "Fiction",
-//   image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-//   rating: 4.5,
-
-//   brand: "Penguin",
-//   author: "John Smith",
-//   pages: 320,
-//   language: "English",
-//   warranty: "No Warranty",
-//   stock: 100,
-//   discount: 10,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "No Replacement",
-
-//   features: [
-//     "Interesting Storyline",
-//     "Easy to Read",
-//     "Premium Quality Paper",
-//     "Best Selling Novel",
-//     "English Language"
-//   ],
-
-//   specs: [
-//     { label: "Author", value: "John Smith" },
-//     { label: "Pages", value: "320" },
-//     { label: "Language", value: "English" },
-//     { label: "Publisher", value: "Penguin" },
-//     { label: "Genre", value: "Fiction" }
-//   ],
-//   variants: []
-// },{
-//   id: "140",
-//   title: "Math Education Book",
-//   description: "Helpful education book.",
-//   price: 299,
-//   category: "Books",
-//   subCategory: "Education",
-//   image: "https://images.unsplash.com/photo-1589998059171-988d887df646",
-//   rating: 4.2,
-
-//   brand: "Oxford",
-//   author: "R.D. Sharma",
-//   pages: 450,
-//   language: "English",
-//   warranty: "No Warranty",
-//   stock: 80,
-//   discount: 12,
-//   delivery: "3-5 Days Delivery",
-//   replacement: "No Replacement",
-
-//   features: [
-//     "Step by Step Solutions",
-//     "Practice Problems",
-//     "Easy Explanations",
-//     "For Students",
-//     "English Language"
-//   ],
-
-//   specs: [
-//     { label: "Author", value: "R.D. Sharma" },
-//     { label: "Pages", value: "450" },
-//     { label: "Language", value: "English" },
-//     { label: "Publisher", value: "Oxford" },
-//     { label: "Subject", value: "Mathematics" }
-//   ],
-//   variants: []
-// }
-// ,
-// {
-//   id: "141",
-//   title: "Face Wash",
-//   description: "Gentle skin care face wash.",
-//   price: 249,
-//   category: "Beauty",
-//   subCategory: "Skin care",
-//   image: "https://images.unsplash.com/photo-1556228720-195a672e8a03",
-//   rating: 4.1,
-
-//   brand: "Himalaya",
-//   skinType: "All Skin Types",
-//   weight: "100ml",
-//   warranty: "No Warranty",
-//   stock: 120,
-//   discount: 8,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "No Replacement",
-
-//   features: [
-//     "Gentle On Skin",
-//     "Deep Cleansing",
-//     "Removes Oil & Dirt",
-//     "Suitable For All Skin Types",
-//     "Daily Use"
-//   ],
-
-//   specs: [
-//     { label: "Skin Type", value: "All Skin Types" },
-//     { label: "Weight", value: "100ml" },
-//     { label: "Organic", value: "Yes" },
-//     { label: "Usage", value: "Daily" },
-//     { label: "Brand", value: "Himalaya" }
-//   ],
-//   variants: []
-// },{
-//   id: "142",
-//   title: "Lipstick",
-//   description: "Long lasting makeup lipstick.",
-//   price: 599,
-//   category: "Beauty",
-//   subCategory: "Makeup",
-//   image: "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
-//   rating: 4.4,
-
-//   brand: "Lakme",
-//   color: "Red",
-//   type: "Matte",
-//   weight: "4g",
-//   warranty: "No Warranty",
-//   stock: 70,
-//   discount: 10,
-//   delivery: "2-3 Days Delivery",
-//   replacement: "No Replacement",
-
-//   features: [
-//     "Long Lasting",
-//     "Matte Finish",
-//     "Smooth Texture",
-//     "Highly Pigmented",
-//     "Lightweight"
-//   ],
-
-//   specs: [
-//     { label: "Color", value: "Red" },
-//     { label: "Type", value: "Matte" },
-//     { label: "Weight", value: "4g" },
-//     { label: "Skin Type", value: "All" },
-//     { label: "Brand", value: "Lakme" }
-//   ],
-//   variants: []
-// },
-
-//   {
-//     id: "141",
-//     title: "Face Wash",
-//     description: "Gentle skin care face wash for daily use.",
-//     price: 249,
-//     category: "Beauty",
-//     subCategory: "Skin care",
-//     image: "https://images.unsplash.com/photo-1556228720-195a672e8a03",
-//     rating: 4.1,
-
-//     brand: "Himalaya",
-//     skinType: "All Skin Types",
-//     weight: "100ml",
-//     warranty: "No Warranty",
-//     stock: 120,
-//     discount: 8,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Gentle On Skin",
-//       "Deep Cleansing",
-//       "Removes Oil & Dirt",
-//       "Suitable For All Skin Types",
-//       "Daily Use"
-//     ],
-
-//     specs: [
-//       { label: "Skin Type", value: "All Skin Types" },
-//       { label: "Weight", value: "100ml" },
-//       { label: "Organic", value: "Yes" },
-//       { label: "Usage", value: "Daily" },
-//       { label: "Brand", value: "Himalaya" }
-//     ],
-//     variants: []
-//   },
-//   {
-//     id: "142",
-//     title: "Lipstick",
-//     description: "Long lasting makeup lipstick with smooth matte finish.",
-//     price: 599,
-//     category: "Beauty",
-//     subCategory: "Makeup",
-//     image: "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
-//     rating: 4.4,
-
-//     brand: "Lakme",
-//     color: "Red",
-//     type: "Matte",
-//     weight: "4g",
-//     warranty: "No Warranty",
-//     stock: 70,
-//     discount: 10,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Long Lasting",
-//       "Matte Finish",
-//       "Smooth Texture",
-//       "Highly Pigmented",
-//       "Lightweight"
-//     ],
-
-//     specs: [
-//       { label: "Color", value: "Red" },
-//       { label: "Type", value: "Matte" },
-//       { label: "Weight", value: "4g" },
-//       { label: "Skin Type", value: "All" },
-//       { label: "Brand", value: "Lakme" }
-//     ],
-//     variants: []
-//   },
-//   {
-//     id: "143",
-//     title: "Shampoo",
-//     description: "Smooth hair care shampoo suitable for all hair types.",
-//     price: 349,
-//     category: "Beauty",
-//     subCategory: "Hair care",
-//     image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
-//     rating: 4.2,
-
-//     brand: "Dove",
-//     hairType: "All Hair Types",
-//     weight: "340ml",
-//     warranty: "No Warranty",
-//     stock: 90,
-//     discount: 8,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Smooth & Silky Hair",
-//       "Daily Use Shampoo",
-//       "Suitable For All Hair Types",
-//       "Deep Nourishment",
-//       "Pleasant Fragrance"
-//     ],
-
-//     specs: [
-//       { label: "Hair Type", value: "All Hair Types" },
-//       { label: "Weight", value: "340ml" },
-//       { label: "Organic", value: "No" },
-//       { label: "Usage", value: "Daily" },
-//       { label: "Brand", value: "Dove" }
-//     ],
-//     variants: []
-//   },
-//   {
-//     id: "144",
-//     title: "Chess Board",
-//     description: "Indoor wooden chess board game for 2 players.",
-//     price: 699,
-//     category: "Sports",
-//     subCategory: "Indoor",
-//     image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461",
-//     rating: 4.3,
-
-//     brand: "Funskool",
-//     material: "Wood",
-//     players: "2 Players",
-//     warranty: "No Warranty",
-//     stock: 40,
-//     discount: 5,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Wooden Chess Board",
-//       "Foldable Board",
-//       "Smooth Finish",
-//       "Indoor Game",
-//       "Portable"
-//     ],
-
-//     specs: [
-//       { label: "Material", value: "Wood" },
-//       { label: "Players", value: "2" },
-//       { label: "Board Type", value: "Foldable" },
-//       { label: "Portable", value: "Yes" },
-//       { label: "Brand", value: "Funskool" }
-//     ],
-//     variants: []
-//   },
-//   {
-//     id: "145",
-//     title: "Football",
-//     description: "Durable outdoor football for standard play.",
-//     price: 899,
-//     category: "Sports",
-//     subCategory: "Outdoor",
-//     image: "https://images.unsplash.com/photo-1517649763962-0c623066013b",
-//     rating: 4.5,
-
-//     brand: "Nivia",
-//     size: "Size 5",
-//     material: "Rubber",
-//     warranty: "No Warranty",
-//     stock: 60,
-//     discount: 10,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Durable Material",
-//       "Perfect For Outdoor",
-//       "Standard Size 5",
-//       "Good Grip",
-//       "Lightweight"
-//     ],
-
-//     specs: [
-//       { label: "Size", value: "5" },
-//       { label: "Material", value: "Rubber" },
-//       { label: "Water Resistant", value: "Yes" },
-//       { label: "Use", value: "Outdoor" },
-//       { label: "Brand", value: "Nivia" }
-//     ],
-//     variants: []
-//   },
-//   {
-//     id: "146",
-//     title: "Dumbbells",
-//     description: "10kg gym dumbbells set for home and gym use.",
-//     price: 1999,
-//     category: "Sports",
-//     subCategory: "Gym",
-//     image: "https://imaes.unsplash.com/photo-1599058917765-a780eda07a3e",
-//     rating: 4.6,
-
-//     brand: "Protoner",
-//     weightSet: "10kg Set",
-//     material: "Cast Iron",
-//     warranty: "6 Months Warranty",
-//     stock: 30,
-//     discount: 12,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "10kg Dumbbell Set",
-//       "Cast Iron Material",
-//       "Non-slip Grip",
-//       "Gym & Home Use",
-//       "Durable"
-//     ],
-
-//     specs: [
-//       { label: "Weight", value: "10kg" },
-//       { label: "Material", value: "Cast Iron" },
-//       { label: "Grip", value: "Non-slip" },
-//       { label: "Use", value: "Gym/Home" },
-//       { label: "Warranty", value: "6 Months" }
-//     ],
-//     variants: []
-//   },
-//   {
-//     id: "147",
-//     title: "Table Lamp",
-//     description: "Decorative LED table lamp with energy-saving design.",
-//     price: 1299,
-//     category: "Home",
-//     subCategory: "Lighting",
-//     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
-//     rating: 4.2,
-
-//     brand: "Philips",
-//     material: "Metal & Plastic",
-//     bulbType: "LED",
-//     warranty: "1 Year Warranty",
-//     stock: 45,
-//     discount: 10,
-//     delivery: "2-4 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "LED Light",
-//       "Modern Design",
-//       "Energy Saving",
-//       "Long Lasting",
-//       "Table Decor Lamp"
-//     ],
-
-//     specs: [
-//       { label: "Bulb Type", value: "LED" },
-//       { label: "Material", value: "Metal & Plastic" },
-//       { label: "Power", value: "10W" },
-//       { label: "Energy Saving", value: "Yes" },
-//       { label: "Warranty", value: "1 Year" }
-//     ],
-//     variants: []
-//   }
-//   ,
-//   {
-//     id: "143",
-//     title: "Shampoo",
-//     description: "Smooth hair care shampoo.",
-//     price: 349,
-//     category: "Beauty",
-//     subCategory: "Hair care",
-//     image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
-//     rating: 4.2,
-
-//     brand: "Dove",
-//     hairType: "All Hair Types",
-//     weight: "340ml",
-//     warranty: "No Warranty",
-//     stock: 90,
-//     discount: 8,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Smooth & Silky Hair",
-//       "Daily Use Shampoo",
-//       "Suitable For All Hair Types",
-//       "Deep Nourishment",
-//       "Pleasant Fragrance"
-//     ],
-
-//     specs: [
-//       { label: "Hair Type", value: "All Hair Types" },
-//       { label: "Weight", value: "340ml" },
-//       { label: "Organic", value: "No" },
-//       { label: "Usage", value: "Daily" },
-//       { label: "Brand", value: "Dove" }
-//     ],
-//     variants: []
-//   },{
-//     id: "144",
-//     title: "Chess Board",
-//     description: "Indoor chess board game.",
-//     price: 699,
-//     category: "Sports",
-//     subCategory: "Indoor",
-//     image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461",
-//     rating: 4.3,
-
-//     brand: "Funskool",
-//     // material: "Wood",
-//     players: "2 Players",
-//     warranty: "No Warranty",
-//     stock: 40,
-//     discount: 5,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Wooden Chess Board",
-//       "Foldable Board",
-//       "Smooth Finish",
-//       "Indoor Game",
-//       "Portable"
-//     ],
-
-//     specs: [
-//       { label: "Material", value: "Wood" },
-//       { label: "Players", value: "2" },
-//       { label: "Board Type", value: "Foldable" },
-//       { label: "Portable", value: "Yes" },
-//       { label: "Brand", value: "Funskool" }
-//     ],
-//     variants: []
-//   },{
-//     id: "145",
-//     title: "Football",
-//     description: "Outdoor football.",
-//     price: 899,
-//     category: "Sports",
-//     subCategory: "Outdoor",
-//     image: "https://images.unsplash.com/photo-1517649763962-0c623066013b",
-//     rating: 4.5,
-
-//     brand: "Nivia",
-//     size: "Size 5",
-//     // material: "Rubber",
-//     warranty: "No Warranty",
-//     stock: 60,
-//     discount: 10,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Durable Material",
-//       "Perfect For Outdoor",
-//       "Standard Size 5",
-//       "Good Grip",
-//       "Lightweight"
-//     ],
-
-//     specs: [
-//       { label: "Size", value: "5" },
-//       { label: "Material", value: "Rubber" },
-//       { label: "Water Resistant", value: "Yes" },
-//       { label: "Use", value: "Outdoor" },
-//       { label: "Brand", value: "Nivia" }
-//     ],
-//     variants: []
-//   },{
-//     id: "146",
-//     title: "Dumbbells",
-//     description: "Gym dumbbells set.",
-//     price: 1999,
-//     category: "Sports",
-//     subCategory: "Gym",
-//     image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e",
-//     rating: 4.6,
-
-//     brand: "Protoner",
-//     weightSet: "10kg Set",
-//     // material: "Cast Iron",
-//     warranty: "6 Months Warranty",
-//     stock: 30,
-//     discount: 12,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "10kg Dumbbell Set",
-//       "Cast Iron Material",
-//       "Non-slip Grip",
-//       "Gym & Home Use",
-//       "Durable"
-//     ],
-
-//     specs: [
-//       { label: "Weight", value: "10kg" },
-//       { label: "Material", value: "Cast Iron" },
-//       { label: "Grip", value: "Non-slip" },
-//       { label: "Use", value: "Gym/Home" },
-//       { label: "Warranty", value: "6 Months" }
-//     ],
-//     variants: []
-//   },{
-//     id: "147",
-//     title: "Table Lamp",
-//     description: "Decorative lighting lamp.",
-//     price: 1299,
-//     category: "Home",
-//     subCategory: "Lighting",
-//     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
-//     rating: 4.2,
-
-//     brand: "Philips",
-//     // material: "Metal & Plastic",
-//     bulbType: "LED",
-//     warranty: "1 Year Warranty",
-//     stock: 45,
-//     discount: 10,
-//     delivery: "2-4 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "LED Light",
-//       "Modern Design",
-//       "Energy Saving",
-//       "Long Lasting",
-//       "Table Decor Lamp"
-//     ],
-
-//     specs: [
-//       { label: "Bulb Type", value: "LED" },
-//       { label: "Material", value: "Metal & Plastic" },
-//       { label: "Power", value: "10W" },
-//       { label: "Energy Saving", value: "Yes" },
-//       { label: "Warranty", value: "1 Year" }
-//     ],
-//     variants: []
-//   },{
-//     id: "148",
-//     title: "Wall Decor",
-//     description: "Beautiful wall decor item.",
-//     price: 999,
-//     category: "Home",
-//     subCategory: "Decor",
-//     image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9",
-//     rating: 4.3,
-
-//     brand: "Home Centre",
-//     // material: "Wood & Metal",
-//     warranty: "No Warranty",
-//     stock: 35,
-//     discount: 10,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Modern Design",
-//       "Wall Mounted",
-//       "Premium Finish",
-//       "Lightweight",
-//       "Living Room Decor"
-//     ],
-
-//     specs: [
-//       { label: "Material", value: "Wood & Metal" },
-//       { label: "Mount Type", value: "Wall" },
-//       { label: "Style", value: "Modern" },
-//       { label: "Weight", value: "500g" },
-//       { label: "Brand", value: "Home Centre" }
-//     ],
-//     variants: []
-//   },{
-//     id: "149",
-//     title: "Storage Box",
-//     description: "Home storage box.",
-//     price: 599,
-//     category: "Home",
-//     subCategory: "Storage",
-//     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
-//     rating: 4.1,
-
-//     brand: "Nilkamal",
-//     // material: "Plastic",
-//     capacity: "30 Litres",
-//     warranty: "6 Months Warranty",
-//     stock: 50,
-//     discount: 8,
-//     delivery: "2-4 Days Delivery",
-//     replacement: "5 Days Replacement",
-
-//     features: [
-//       "Large Storage Capacity",
-//       "Durable Plastic",
-//       "Stackable",
-//       "Lightweight",
-//       "Multipurpose Use"
-//     ],
-
-//     specs: [
-//       { label: "Material", value: "Plastic" },
-//       { label: "Capacity", value: "30 Litres" },
-//       { label: "Stackable", value: "Yes" },
-//       { label: "Weight", value: "900g" },
-//       { label: "Warranty", value: "6 Months" }
-//     ],
-//     variants: []
-//   },{
-//     id: "150",
-//     title: "Acoustic Guitar",
-//     description: "6-string acoustic guitar.",
-//     price: 4999,
-//     category: "Instrument",
-//     subCategory: "Guitar",
-//     image: "https://images.unsplash.com/photo-1510915361894-db8b60106cb1",
-//     rating: 4.5,
-
-//     brand: "Yamaha",
-//     strings: "6 Strings",
-//     // material: "Wood",
-//     warranty: "1 Year Warranty",
-//     stock: 20,
-//     discount: 10,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "6 Steel Strings",
-//       "Rich Sound Quality",
-//       "Wooden Body",
-//       "Beginner Friendly",
-//       "Lightweight"
-//     ],
-
-//     specs: [
-//       { label: "Strings", value: "6" },
-//       { label: "Material", value: "Wood" },
-//       { label: "Type", value: "Acoustic" },
-//       { label: "Weight", value: "2kg" },
-//       { label: "Warranty", value: "1 Year" }
-//     ],
-//     variants: []
-//   },{
-//     id: "151",
-//     title: "Keyboard Piano",
-//     description: "Electronic keyboard piano.",
-//     price: 6999,
-//     category: "Instrument",
-//     subCategory: "Keyboard",
-//     image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a",
-//     rating: 4.4,
-
-//     brand: "Casio",
-//     // keys: "61 Keys",
-//     power: "Electric",
-//     warranty: "1 Year Warranty",
-//     stock: 18,
-//     discount: 12,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "61 Keys Keyboard",
-//       "Multiple Tones",
-//       "Recording Feature",
-//       "Built-in Speakers",
-//       "Beginner Friendly"
-//     ],
-
-//     specs: [
-//       { label: "Keys", value: "61" },
-//       { label: "Power", value: "Electric" },
-//       { label: "Speaker", value: "Built-in" },
-//       { label: "Recording", value: "Yes" },
-//       { label: "Warranty", value: "1 Year" }
-//     ],
-//     variants: []
-//   },{
-//     id: "152",
-//     title: "Drum Set",
-//     description: "Full drum set.",
-//     price: 12000,
-//     category: "Instrument",
-//     subCategory: "Drums",
-//     image: "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7",
-//     rating: 4.6,
-
-//     brand: "Kadence",
-//     pieces: 5,
-//     // material: "Wood & Metal",
-//     warranty: "1 Year Warranty",
-//     stock: 10,
-//     discount: 15,
-//     delivery: "5-7 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "5 Piece Drum Set",
-//       "Strong Build Quality",
-//       "Deep Bass Sound",
-//       "Beginner & Professional Use",
-//       "Adjustable Stand"
-//     ],
-
-//     specs: [
-//       { label: "Pieces", value: "5" },
-//       { label: "Material", value: "Wood & Metal" },
-//       { label: "Bass Drum", value: "Yes" },
-//       { label: "Stand", value: "Adjustable" },
-//       { label: "Warranty", value: "1 Year" }
-//     ],
-//     variants: []
-//   },{
-//     id: "153",
-//     title: "Water Bottle",
-//     description: "Durable and reusable water bottle.",
-//     price: 299,
-//     category: "Home",
-//     subCategory: "Storage",
-//     image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba",
-//     rating: 4.3,
-
-//     brand: "Milton",
-//     // material: "Steel",
-//     capacity: "1 Litre",
-//     warranty: "6 Months Warranty",
-//     stock: 100,
-//     discount: 5,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "1 Litre Capacity",
-//       "Leak Proof",
-//       "Durable Steel",
-//       "Reusable Bottle",
-//       "Travel Friendly"
-//     ],
-
-//     specs: [
-//       { label: "Material", value: "Steel" },
-//       { label: "Capacity", value: "1 Litre" },
-//       { label: "Leak Proof", value: "Yes" },
-//       { label: "Reusable", value: "Yes" },
-//       { label: "Warranty", value: "6 Months" }
-//     ],
-//     variants: []
-//   },{
-//     id: "154",
-//     title: "Coffee",
-//     description: "Authentic coffee.",
-//     price: 499,
-//     category: "Food",
-//     subCategory: "Beverages",
-//     image: "https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db",
-//     rating: 4.5,
-
-//     brand: "Nescafe",
-//     weight: "200g",
-//     type: "Instant Coffee",
-//     flavor: "Classic",
-//     stock: 120,
-//     discount: 5,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Rich Aroma",
-//       "Instant Coffee",
-//       "Strong Taste",
-//       "Premium Beans",
-//       "Easy to Prepare"
-//     ],
-
-//     specs: [
-//       { label: "Weight", value: "200g" },
-//       { label: "Type", value: "Instant" },
-//       { label: "Flavor", value: "Classic" },
-//       { label: "Shelf Life", value: "12 Months" },
-//       { label: "Brand", value: "Nescafe" }
-//     ],
-//     variants: []
-//   },{
-//     id: "155",
-//     title: "Cookies",
-//     description: "Delicious chocolate cookies.",
-//     price: 199,
-//     category: "Food",
-//     subCategory: "Snacks",
-//     image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35",
-//     rating: 4.4,
-
-//     brand: "Oreo",
-//     weight: "300g",
-//     flavor: "Chocolate",
-//     stock: 150,
-//     discount: 5,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Chocolate Flavor",
-//       "Crunchy Cookies",
-//       "Kids Favorite",
-//       "Ready to Eat",
-//       "Premium Quality"
-//     ],
-
-//     specs: [
-//       { label: "Weight", value: "300g" },
-//       { label: "Flavor", value: "Chocolate" },
-//       { label: "Type", value: "Cookies" },
-//       { label: "Shelf Life", value: "6 Months" },
-//       { label: "Brand", value: "Oreo" }
-//     ],
-//     variants: []
-//   },{
-//     id: "156",
-//     title: "Yoga Mat",
-//     description: "Comfortable yoga mat for exercise.",
-//     price: 999,
-//     category: "Health",
-//     subCategory: "Fitness",
-//     image: "https://images.unsplash.com/photo-1591291621164-2c6367723315",
-//     rating: 4.6,
-
-//     brand: "Boldfit",
-//     material: ["EVA Foam"],
-//     thickness: "6mm",
-//     warranty: "6 Months Warranty",
-//     stock: 60,
-//     discount: 10,
-//     delivery: "3-5 Days Delivery",
-//     replacement: "7 Days Replacement",
-
-//     features: [
-//       "Anti-slip Surface",
-//       "6mm Thick Mat",
-//       "Lightweight",
-//       "Easy to Carry",
-//       "Workout & Yoga Use"
-//     ],
-
-//     specs: [
-//       { label: "Material", value: "EVA Foam" },
-//       { label: "Thickness", value: "6mm" },
-//       { label: "Anti-slip", value: "Yes" },
-//       { label: "Washable", value: "Yes" },
-//       { label: "Warranty", value: "6 Months" }
-//     ],
-//     variants: []
-//   },{
-//   id: "157",
-//   title: "Wooden Study Table",
-//   description: "Spacious wooden study table for home and office use.",
-//   price: 4599,
-//   category: "Furniture",
-//   subCategory: "Table",
-//   rating: 4.3,
-//   image: "https://images.unsplash.com/photo-1592078615290-033ee584e267",
-
-//   brand: "IKEA",
-//   material: ["Engineered Wood"],
-//   warranty: "1 Year Warranty",
-//   stock: 20,
-//   discount: 12,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Spacious Table Top",
-//     "Strong Wooden Build",
-//     "Modern Design",
-//     "Study & Office Use",
-//     "Easy Assembly"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Engineered Wood" },
-//     { label: "Width", value: "120 cm" },
-//     { label: "Height", value: "75 cm" },
-//     { label: "Drawers", value: "Yes" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "158",
-//   title: "Office Chair",
-//   description: "Ergonomic office chair with lumbar support.",
-//   price: 3299,
-//   category: "Furniture",
-//   subCategory: "Chair",
-//   rating: 4.2,
-//   image: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "159",
-//   title: "Queen Size Bed",
-//   description: "Comfortable queen size wooden bed.",
-//   price: 12499,
-//   category: "Furniture",
-//   subCategory: "Bed",
-//   rating: 4.5,
-//   image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
-//   brand: "IKEA",
-//   material: "Wood",
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ], specs: [
-//     { label: "Material", value: "Wood" },
-//     { label: "Size", value: "Queen/King/Single" },
-//     { label: "Storage", value: "Yes/No" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "160",
-//   title: "King Size Bed",
-//   description: "Luxury king size bed for master bedroom.",
-//   price: 18999,
-//   category: "Furniture",
-//   subCategory: "Bed",
-//   rating: 4.6,
-//   image: "https://images.unsplash.com/photo-1505693314120-0d443867891c",
-//   brand: "IKEA",
-//   material: "Wood",
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ], specs: [
-//     { label: "Material", value: "Wood" },
-//     { label: "Size", value: "Queen/King/Single" },
-//     { label: "Storage", value: "Yes/No" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "161",
-//   title: "Coffee Table",
-//   description: "Modern coffee table for living room.",
-//   price: 2499,
-//   category: "Furniture",
-//   subCategory: "Table",
-//   rating: 4.1,
-//   image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9",
-//   brand: "IKEA",
-//   material: "Wood",
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "162",
-//   title: "Bedside Table",
-//   description: "Compact bedside table with drawer.",
-//   price: 1999,
-//   category: "Furniture",
-//   subCategory: "Table",
-//   rating: 4.0,
-//   image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "163",
-//   title: "Dining Table",
-//   description: "4-seater wooden dining table.",
-//   price: 8999,
-//   category: "Furniture",
-//   subCategory: "Table",
-//   rating: 4.4,
-//   image: "https://images.unsplash.com/photo-1617806118233-18e1de247200",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "164",
-//   title: "Study Chair",
-//   description: "Comfortable chair for study and work.",
-//   price: 2199,
-//   category: "Furniture",
-//   subCategory: "Chair",
-//   rating: 4.1,
-//   image: "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "165",
-//   title: "Recliner Chair",
-//   description: "Luxury recliner chair for relaxation.",
-//   price: 8999,
-//   category: "Furniture",
-//   subCategory: "Chair",
-//   rating: 4.7,
-//   image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "166",
-//   title: "Gaming Chair",
-//   description: "Ergonomic gaming chair with headrest.",
-//   price: 7499,
-//   category: "Furniture",
-//   subCategory: "Chair",
-//   rating: 4.6,
-//   image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "167",
-//   title: "Single Bed",
-//   description: "Single bed for kids room.",
-//   price: 7999,
-//   category: "Furniture",
-//   subCategory: "Bed",
-//   rating: 4.2,
-//   image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304",
-
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood" },
-//     { label: "Size", value: "Queen/King/Single" },
-//     { label: "Storage", value: "Yes/No" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-
-//   {
-//     id: "141",
-//     title: "Face Wash",
-//     description: "Gentle skin care face wash for daily use.",
-//     price: 249,
-//     category: "Beauty",
-//     subCategory: "Skin care",
-//     image: "https://images.unsplash.com/photo-1556228720-195a672e8a03",
-//     rating: 4.1,
-
-//     brand: "Himalaya",
-//     skinType: "All Skin Types",
-//     weight: "100ml",
-//     warranty: "No Warranty",
-//     stock: 120,
-//     discount: 8,
-//     delivery: "2-3 Days Delivery",
-//     replacement: "No Replacement",
-
-//     features: [
-//       "Gentle On Skin",
-//       "Deep Cleansing",
-//       "Removes Oil & Dirt",
-//       "Suitable For All Skin Types",
-//       "Daily Use"
-//     ],
-
-//     specs: [
-//       { label: "Skin Type", value: "All Skin Types" },
-//       { label: "Weight", value: "100ml" },
-//       { label: "Organic", value: "Yes" },
-//       { label: "Usage", value: "Daily" },
-//       { label: "Brand", value: "Himalaya" }
-//     ],
-
-//     // Variants (required field)
-//     variants: [
-//       {
-//         size: "100ml",
-//         price: 249,
-//         image: "https://images.unsplash.com/photo-1556228720-195a672e8a03"
-//       },
-//       {
-//         size: "200ml",
-//         price: 399,
-//         image: "https://images.unsplash.com/photo-1556228720-195a672e8a03"
-//       }
-//     ]
-//   }
-// ,
-// {
-//   id: "168",
-//   title: "Wooden Table",
-//   description: "Multipurpose wooden table.",
-//   price: 3499,
-//   category: "Furniture",
-//   subCategory: "Table",
-//   rating: 4.3,
-//   image: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "169",
-//   title: " Black Arm Chair",
-//   description: "Comfortable arm chair for living room.",
-//   price: 5599,
-//   category: "Furniture",
-//   subCategory: "Chair",
-//   rating: 4.4,
-//   image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood/Metal" },
-//     { label: "Weight Capacity", value: "120kg" },
-//     { label: "Assembly", value: "Required" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// },
-// {
-//   id: "170",
-//   title: "Bunk Bed",
-//   description: "Space saving bunk bed for kids.",
-//   price: 15999,
-//   category: "Furniture",
-//   subCategory: "Bed",
-//   rating: 4.5,
-//   image: "https://images.unsplash.com/photo-1586105251261-72a756497a11",
-//   brand: "IKEA",
-//   material: ["Wood", "Metal", "Fabric"],
-//   warranty: "1 Year Warranty",
-//   stock: 15 - 40,
-//   discount: 10 - 18,
-//   delivery: "5-7 Days Delivery",
-//   replacement: "7 Days Replacement",
-
-//   features: [
-//     "Premium Build Quality",
-//     "Modern Design",
-//     "Durable Material",
-//     "Easy Assembly",
-//     "Home & Office Use"
-//   ],
-
-//   specs: [
-//     { label: "Material", value: "Wood" },
-//     { label: "Size", value: "Queen/King/Single" },
-//     { label: "Storage", value: "Yes/No" },
-//     { label: "Finish", value: "Matte" },
-//     { label: "Warranty", value: "1 Year" }
-//   ],
-//   variants: []
-// }
-// ,{
-//   id: "171",
-//   title: "Arm Chair",
-//   description: "Comfortable arm chair for living room.",
-//   price: 5599,
-//   category: "Furniture",
-//   subCategory: "Chair",
-//   rating: 4.4,
-//   image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
-
-//   features: [
-//     "Ergonomic Design",
-//     "Premium Cushion",
-//     "Solid Wood Frame",
-//     "5 Years Warranty",
-//     "Free Installation",
-//     "10 Days Replacement"
-//   ],
-//   variants: []
-// },
+  {
+  id: "73",
+  title: "Wooden Table",
+  description: "Multipurpose wooden table.",
+  price: 3499,
+  category: "Furniture",
+  subCategory: "Table",
+  rating: 4.3,
+  image: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc",
+  brand: "IKEA",
+  material: ["Wood", "Metal"],
+  warranty: "1 Year Warranty",
+  stock: 25,
+  discount: 12,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Brown",
+      size: "Small",
+      price: 3499,
+      image: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc"
+    },
+    {
+      color: "Brown",
+      size: "Medium",
+      price: 4499,
+      image: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc"
+    },
+    {
+      color: "White",
+      size: "Large",
+      price: 5499,
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+    }
+  ],
+
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Durable Material",
+    "Easy Assembly",
+    "Home & Office Use"
+  ],
+
+  specs: [
+    { label: "Material", value: "Wood/Metal" },
+    { label: "Weight Capacity", value: "120kg" },
+    { label: "Assembly", value: "Required" },
+    { label: "Finish", value: "Matte" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+},
+{
+  id: "72",
+  title: "Black Arm Chair",
+  description: "Comfortable arm chair for living room.",
+  price: 5599,
+  category: "Furniture",
+  subCategory: "Chair",
+  rating: 4.4,
+  image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
+  brand: "IKEA",
+  material: ["Wood", "Metal", "Fabric"],
+  warranty: "1 Year Warranty",
+  stock: 20,
+  discount: 15,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Black",
+      material: "Fabric",
+      price: 5599,
+      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc"
+    },
+    {
+      color: "Grey",
+      material: "Fabric",
+      price: 5799,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    },
+    {
+      color: "Brown",
+      material: "Leather",
+      price: 6999,
+      image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+    }
+  ],
+
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Durable Material",
+    "Comfortable Seating",
+    "Home & Office Use"
+  ],
+
+  specs: [
+    { label: "Material", value: "Wood/Metal/Fabric" },
+    { label: "Weight Capacity", value: "120kg" },
+    { label: "Assembly", value: "Required" },
+    { label: "Finish", value: "Matte" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+}
+,
+{
+  id: "53",
+  title: "Gaming Chair",
+  description: "Ergonomic gaming chair with headrest.",
+  price: 7499,
+  category: "Furniture",
+  subCategory: "Chair",
+  rating: 4.6,
+  image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6",
+  brand: "IKEA",
+  material: ["Wood", "Metal", "Fabric"],
+  warranty: "1 Year Warranty",
+  stock: 20,
+  discount: 15,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Black",
+      material: "Leather",
+      price: 7499,
+      image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6"
+    },
+    {
+      color: "Red",
+      material: "Leather",
+      price: 7999,
+      image: "https://images.unsplash.com/photo-1616627450209-4f7b8b0c6c34"
+    },
+    {
+      color: "Blue",
+      material: "Fabric",
+      price: 7699,
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956"
+    }
+  ],
+
+  features: [
+    "Ergonomic Design",
+    "Adjustable Height",
+    "Headrest & Lumbar Support",
+    "Premium Build Quality",
+    "Comfortable for Long Gaming Sessions"
+  ],
+
+  specs: [
+    { label: "Material", value: "Leather/Fabric" },
+    { label: "Weight Capacity", value: "120kg" },
+    { label: "Adjustable Height", value: "Yes" },
+    { label: "Finish", value: "Matte" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+}
+,
+{
+  id: "54",
+  title: "Single Bed",
+  description: "Single bed for kids room.",
+  price: 7999,
+  category: "Furniture",
+  subCategory: "Bed",
+  rating: 4.2,
+  image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304",
+  brand: "IKEA",
+  material: ["Wood", "Metal"],
+  warranty: "1 Year Warranty",
+  stock: 18,
+  discount: 12,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      size: "Single",
+      storage: "No",
+      price: 7999,
+      image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304"
+    },
+    {
+      size: "Single",
+      storage: "Yes",
+      price: 9999,
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+    },
+    {
+      size: "Queen",
+      storage: "Yes",
+      price: 13999,
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+    }
+  ],
+
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Durable Material",
+    "Storage Option Available",
+    "Easy Assembly"
+  ],
+
+  specs: [
+    { label: "Material", value: "Wood" },
+    { label: "Size", value: "Single / Queen" },
+    { label: "Storage", value: "Yes / No" },
+    { label: "Finish", value: "Matte" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+},
+{
+  id: "48",
+  title: "Math Education Book",
+  description: "Helpful education book for students to master mathematics concepts.",
+  price: 299,
+  category: "Books",
+  subCategory: "Education",
+  image: "https://images.unsplash.com/photo-1589998059171-988d887df646",
+  rating: 4.2,
+
+  brand: "Oxford",
+  author: "R.D. Sharma",
+  pages: 450,
+  language: "English",
+  warranty: "No Warranty",
+  stock: 80,
+  discount: 12,
+  delivery: "3-5 Days Delivery",
+  replacement: "No Replacement",
+
+  features: [
+    "Step by Step Solutions",
+    "Practice Problems",
+    "Easy Explanations",
+    "Perfect for School Students",
+    "Covers Core Mathematics Topics"
+  ],
+
+  specs: [
+    { label: "Author", value: "R.D. Sharma" },
+    { label: "Pages", value: "450" },
+    { label: "Language", value: "English" },
+    { label: "Publisher", value: "Oxford" },
+    { label: "Subject", value: "Mathematics" }
+  ],
+
+  // ✅ Variants added (important for your UI)
+  variants: [
+    {
+      color: "Standard Edition",
+      price: 299,
+      image: "https://images.unsplash.com/photo-1589998059171-988d887df646",
+      format: "Paperback"
+    },
+    {
+      color: "Hardcover Edition",
+      price: 399,
+      image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      format: "Hardcover"
+    },
+    {
+      color: "Student Edition",
+      price: 249,
+      image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      format: "Paperback"
+    }
+  ]
+},
+{
+  id: "209",
+  title: "Fiction Story Book",
+  description: "Interesting fiction novel with engaging storyline and memorable characters.",
+  price: 399,
+  category: "Books",
+  subCategory: "Fiction",
+  image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+  rating: 4.5,
+
+  brand: "Penguin",
+  author: "John Smith",
+  pages: 320,
+  language: "English",
+  warranty: "No Warranty",
+  stock: 100,
+  discount: 10,
+  delivery: "3-5 Days Delivery",
+  replacement: "No Replacement",
+
+  features: [
+    "Interesting Storyline",
+    "Easy to Read",
+    "Premium Quality Paper",
+    "Best Selling Novel",
+    "Perfect for Leisure Reading"
+  ],
+
+  specs: [
+    { label: "Author", value: "John Smith" },
+    { label: "Pages", value: "320" },
+    { label: "Language", value: "English" },
+    { label: "Publisher", value: "Penguin" },
+    { label: "Genre", value: "Fiction" }
+  ],
+
+  // ✅ Variants added
+  variants: [
+    {
+      color: "Paperback Edition",
+      price: 399,
+      image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      format: "Paperback"
+    },
+    {
+      color: "Hardcover Edition",
+      price: 499,
+      image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      format: "Hardcover"
+    },
+    {
+      color: "Collector's Edition",
+      price: 599,
+      image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      format: "Hardcover"
+    }
+  ]
+},
+{
+  id: "50",
+  title: "Recliner Chair",
+  description: "Luxury recliner chair for relaxation.",
+  price: 8999,
+  category: "Furniture",
+  subCategory: "Chair",
+  rating: 4.7,
+  image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+  brand: "IKEA",
+  material: ["Wood", "Metal", "Fabric"],
+  warranty: "1 Year Warranty",
+  stock: 20,
+  discount: 15,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Brown",
+      material: "Leather",
+      price: 8999,
+      image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+    },
+    {
+      color: "Black",
+      material: "Leather",
+      price: 9499,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    },
+    {
+      color: "Grey",
+      material: "Fabric",
+      price: 8599,
+      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc"
+    }
+  ],
+
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Comfortable Reclining",
+    "Durable Material",
+    "Perfect for Living Room"
+  ],
+
+  specs: [
+    { label: "Material", value: "Leather/Fabric" },
+    { label: "Weight Capacity", value: "120kg" },
+    { label: "Reclining", value: "Yes" },
+    { label: "Finish", value: "Matte" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+},
+{
+  id: "51",
+  title: "Recliner Chair",
+  description: "Luxury recliner chair for relaxation.",
+  price: 8999,
+  category: "Furniture",
+  subCategory: "Chair",
+  rating: 4.7,
+  image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+  brand: "IKEA",
+  material: ["Wood", "Metal", "Fabric"],
+  warranty: "1 Year Warranty",
+  stock: 25,
+  discount: 15,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Brown",
+      material: "Leather",
+      price: 8999,
+      discount: 10,
+      image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+    },
+    {
+      color: "Black",
+      material: "Leather",
+      price: 9499,
+      discount: 12,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    },
+    {
+      color: "Grey",
+      material: "Fabric",
+      price: 8599,
+      discount: 8,
+      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc"
+    }
+  ],
+
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Comfortable Reclining",
+    "Soft Cushion Support",
+    "Perfect for Living Room"
+  ],
+
+  specs: [
+    { label: "Material", value: "Leather/Fabric" },
+    { label: "Weight Capacity", value: "120kg" },
+    { label: "Reclining", value: "Yes" },
+    { label: "Assembly", value: "Required" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+},
+
+
+{
+  id: "52",
+  title: "King Size Bed",
+  description: "Luxury king size bed for master bedroom.",
+  price: 18999,
+  category: "Furniture",
+  subCategory: "Bed",
+  rating: 4.6,
+  image: "https://images.unsplash.com/photo-1505693314120-0d443867891c",
+  brand: "IKEA",
+  material: "Wood",
+  warranty: "1 Year Warranty",
+  stock: 20,
+  discount: 15,
+  delivery: "5-7 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      size: "Single",
+      storage: "No",
+      color: "Brown",
+      price: 14999,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    },
+    {
+      size: "Queen",
+      storage: "Yes",
+      color: "Brown",
+      price: 17999,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    },
+    {
+      size: "King",
+      storage: "Yes",
+      color: "Brown",
+      price: 18999,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    },
+    {
+      size: "King",
+      storage: "Yes",
+      color: "Black",
+      price: 19999,
+      image: "https://images.unsplash.com/photo-1505693314120-0d443867891c"
+    }
+  ],
+
+  features: [
+    "Premium Build Quality",
+    "Modern Design",
+    "Hydraulic Storage Available",
+    "Durable Wooden Frame",
+    "Easy Assembly"
+  ],
+
+  specs: [
+    { label: "Material", value: "Wood" },
+    { label: "Sizes Available", value: "Single/Queen/King" },
+    { label: "Storage", value: "Available" },
+    { label: "Finish", value: "Matte" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+},
+{
+  id: "53",
+  title: "Lipstick",
+  description: "Long lasting makeup lipstick with smooth matte finish.",
+  price: 599,
+  category: "Beauty",
+  subCategory: "Makeup",
+  image: "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
+  rating: 4.4,
+
+  brand: "Lakme",
+  type: "Matte",
+  weight: "4g",
+  warranty: "No Warranty",
+  stock: 70,
+  discount: 10,
+  delivery: "2-3 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      color: "Red",
+      type: "Matte",
+      price: 599,
+      image: "https://images.unsplash.com/photo-1586495777744-4413f21062fa"
+    },
+    {
+      color: "Pink",
+      type: "Matte",
+      price: 579,
+      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348"
+    },
+    {
+      color: "Nude",
+      type: "Creamy",
+      price: 549,
+      image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
+    },
+    {
+      color: "Maroon",
+      type: "Glossy",
+      price: 629,
+      image: "https://images.unsplash.com/photo-1612817288484-6f916006741a"
+    }
+  ],
+
+  features: [
+    "Long Lasting",
+    "Matte & Glossy Finish Options",
+    "Smooth Texture",
+    "Highly Pigmented",
+    "Lightweight Formula"
+  ],
+
+  specs: [
+    { label: "Shades Available", value: "Red/Pink/Nude/Maroon" },
+    { label: "Finish", value: "Matte/Glossy/Creamy" },
+    { label: "Weight", value: "4g" },
+    { label: "Skin Type", value: "All" },
+    { label: "Brand", value: "Lakme" }
+  ]
+},
+
+{
+  id: "54",
+  title: "Dumbbells",
+  description: "Gym dumbbells set for home and gym use.",
+  price: 1999,
+  category: "Sports",
+  subCategory: "Gym",
+  image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e",
+  rating: 4.6,
+
+  brand: "Protoner",
+  material: "Cast Iron",
+  warranty: "6 Months Warranty",
+  stock: 30,
+  discount: 12,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      weight: "5kg Set",
+      material: "PVC",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    },
+    {
+      weight: "10kg Set",
+      material: "Cast Iron",
+      price: 1999,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    },
+    {
+      weight: "15kg Set",
+      material: "Cast Iron",
+      price: 2599,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    },
+    {
+      weight: "20kg Set",
+      material: "Rubber Coated",
+      price: 3299,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    }
+  ],
+
+  features: [
+    "Multiple Weight Options",
+    "Durable Material",
+    "Non-slip Grip",
+    "Gym & Home Use",
+    "Long Lasting"
+  ],
+
+  specs: [
+    { label: "Weight Options", value: "5kg/10kg/15kg/20kg" },
+    { label: "Material", value: "PVC/Cast Iron/Rubber" },
+    { label: "Grip", value: "Non-slip" },
+    { label: "Use", value: "Gym/Home" },
+    { label: "Warranty", value: "6 Months" }
+  ]
+}
+,
+{
+  id: "55",
+  title: "Chess Board",
+  description: "Indoor wooden chess board game for 2 players.",
+  price: 699,
+  category: "Sports",
+  subCategory: "Indoor",
+  image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461",
+  rating: 4.3,
+
+  brand: "Funskool",
+  material: "Wood",
+  players: "2 Players",
+  warranty: "No Warranty",
+  stock: 40,
+  discount: 5,
+  delivery: "3-5 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      size: "Small",
+      material: "Plastic",
+      price: 399,
+      image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461"
+    },
+    {
+      size: "Medium",
+      material: "Wood",
+      price: 699,
+      image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461"
+    },
+    {
+      size: "Large",
+      material: "Wood",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461"
+    },
+    {
+      size: "Large",
+      material: "Magnetic",
+      price: 1099,
+      image: "https://images.unsplash.com/photo-1586165368502-1bad197a6461"
+    }
+  ],
+
+  features: [
+    "Multiple Board Sizes",
+    "Foldable Board",
+    "Smooth Finish",
+    "Indoor Game",
+    "Portable Design"
+  ],
+
+  specs: [
+    { label: "Board Sizes", value: "Small/Medium/Large" },
+    { label: "Material", value: "Plastic/Wood/Magnetic" },
+    { label: "Players", value: "2" },
+    { label: "Foldable", value: "Yes" },
+    { label: "Brand", value: "Funskool" }
+  ]
+}
+,
+{
+  id: "56",
+  title: "Dumbbells",
+  description: "Gym dumbbells set.",
+  price: 1999,
+  category: "Sports",
+  subCategory: "Gym",
+  image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e",
+  rating: 4.6,
+
+  brand: "Protoner",
+  warranty: "6 Months Warranty",
+  stock: 30,
+  discount: 12,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      weight: "5kg Set",
+      material: "PVC",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    },
+    {
+      weight: "10kg Set",
+      material: "Cast Iron",
+      price: 1999,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    },
+    {
+      weight: "15kg Set",
+      material: "Cast Iron",
+      price: 2599,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    },
+    {
+      weight: "20kg Set",
+      material: "Rubber Coated",
+      price: 3299,
+      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e"
+    }
+  ],
+
+  features: [
+    "Multiple Weight Options",
+    "Durable Material",
+    "Non-slip Grip",
+    "Gym & Home Use",
+    "Long Lasting"
+  ],
+
+  specs: [
+    { label: "Weight Options", value: "5kg/10kg/15kg/20kg" },
+    { label: "Material", value: "PVC/Cast Iron/Rubber" },
+    { label: "Grip", value: "Non-slip" },
+    { label: "Use", value: "Gym/Home" },
+    { label: "Warranty", value: "6 Months" }
+  ]
+},
+{
+  id: "57",
+  title: "Wall Decor",
+  description: "Beautiful wall decor item.",
+  price: 999,
+  category: "Home",
+  subCategory: "Decor",
+  image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9",
+  rating: 4.3,
+
+  brand: "Home Centre",
+  warranty: "No Warranty",
+  stock: 35,
+  discount: 10,
+  delivery: "3-5 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      size: "Small",
+      material: "Wood",
+      color: "Brown",
+      price: 699,
+      image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9"
+    },
+    {
+      size: "Medium",
+      material: "Wood & Metal",
+      color: "Black",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9"
+    },
+    {
+      size: "Large",
+      material: "Metal",
+      color: "Gold",
+      price: 1299,
+      image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9"
+    },
+    {
+      size: "Large",
+      material: "Wood",
+      color: "White",
+      price: 1199,
+      image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9"
+    }
+  ],
+
+  features: [
+    "Modern Design",
+    "Wall Mounted",
+    "Premium Finish",
+    "Lightweight",
+    "Perfect for Living Room"
+  ],
+
+  specs: [
+    { label: "Material Options", value: "Wood/Metal/Wood & Metal" },
+    { label: "Sizes Available", value: "Small/Medium/Large" },
+    { label: "Mount Type", value: "Wall" },
+    { label: "Style", value: "Modern" },
+    { label: "Brand", value: "Home Centre" }
+  ]
+}
+,
+{
+  id: "58",
+  title: "Keyboard Piano",
+  description: "Electronic keyboard piano.",
+  price: 6999,
+  category: "Instrument",
+  subCategory: "Keyboard",
+  image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a",
+  rating: 4.4,
+
+  brand: "Casio",
+  power: "Electric",
+  warranty: "1 Year Warranty",
+  stock: 18,
+  discount: 12,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      keys: "49 Keys",
+      power: "Battery",
+      price: 4999,
+      image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a"
+    },
+    {
+      keys: "61 Keys",
+      power: "Electric",
+      price: 6999,
+      image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a"
+    },
+    {
+      keys: "76 Keys",
+      power: "Electric",
+      price: 8999,
+      image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a"
+    },
+    {
+      keys: "88 Keys",
+      power: "Electric",
+      price: 12999,
+      image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a"
+    }
+  ],
+
+  features: [
+    "Multiple Key Options",
+    "Built-in Speakers",
+    "Recording Feature",
+    "Multiple Tones",
+    "Beginner Friendly"
+  ],
+
+  specs: [
+    { label: "Keys Options", value: "49/61/76/88 Keys" },
+    { label: "Power", value: "Battery/Electric" },
+    { label: "Speaker", value: "Built-in" },
+    { label: "Recording", value: "Yes" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+}
+,
+{
+  id: "59",
+  title: "Water Bottle",
+  description: "Durable and reusable water bottle.",
+  price: 299,
+  category: "Home",
+  subCategory: "Storage",
+  image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba",
+  rating: 4.3,
+
+  brand: "Milton",
+  warranty: "6 Months Warranty",
+  stock: 100,
+  discount: 5,
+  delivery: "2-3 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      capacity: "500ml",
+      material: "Plastic",
+      color: "Blue",
+      price: 199,
+      image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba"
+    },
+    {
+      capacity: "750ml",
+      material: "Plastic",
+      color: "Red",
+      price: 249,
+      image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba"
+    },
+    {
+      capacity: "1 Litre",
+      material: "Steel",
+      color: "Silver",
+      price: 299,
+      image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba"
+    },
+    {
+      capacity: "1.5 Litre",
+      material: "Steel",
+      color: "Black",
+      price: 349,
+      image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba"
+    }
+  ],
+
+  features: [
+    "Multiple Capacity Options",
+    "Leak Proof Design",
+    "Durable Material",
+    "Reusable Bottle",
+    "Travel Friendly"
+  ],
+
+  specs: [
+    { label: "Capacity Options", value: "500ml/750ml/1L/1.5L" },
+    { label: "Material", value: "Plastic/Steel" },
+    { label: "Leak Proof", value: "Yes" },
+    { label: "Reusable", value: "Yes" },
+    { label: "Warranty", value: "6 Months" }
+  ]
+},
+{
+  id: "60",
+  title: "Cookies",
+  description: "Delicious cookies.",
+  price: 199,
+  category: "Food",
+  subCategory: "Snacks",
+  image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35",
+  rating: 4.4,
+
+  brand: "Oreo",
+  stock: 150,
+  discount: 5,
+  delivery: "2-3 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      weight: "150g",
+      flavor: "Chocolate",
+      price: 99,
+      image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35"
+    },
+    {
+      weight: "300g",
+      flavor: "Chocolate",
+      price: 199,
+      image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35"
+    },
+    {
+      weight: "300g",
+      flavor: "Strawberry",
+      price: 209,
+      image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35"
+    },
+    {
+      weight: "500g",
+      flavor: "Chocolate",
+      price: 299,
+      image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35"
+    }
+  ],
+
+  features: [
+    "Multiple Flavors Available",
+    "Crunchy Cookies",
+    "Ready to Eat",
+    "Premium Quality",
+    "Kids Favorite"
+  ],
+
+  specs: [
+    { label: "Weight Options", value: "150g/300g/500g" },
+    { label: "Flavors", value: "Chocolate/Strawberry" },
+    { label: "Type", value: "Cookies" },
+    { label: "Shelf Life", value: "6 Months" },
+    { label: "Brand", value: "Oreo" }
+  ]
+}
+,
+{
+  id: "200",
+  title: "Resistance Bands Set",
+  description: "Elastic resistance bands set for home and gym workout.",
+  price: 799,
+  category: "Health",
+  subCategory: "Fitness",
+  image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff",
+  rating: 4.5,
+
+  brand: "Boldfit",
+  warranty: "6 Months Warranty",
+  stock: 80,
+  discount: 10,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      type: "Light",
+      weight: "5-10kg",
+      color: "Yellow",
+      price: 499,
+      image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff"
+    },
+    {
+      type: "Medium",
+      weight: "10-20kg",
+      color: "Red",
+      price: 699,
+      image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff"
+    },
+    {
+      type: "Heavy",
+      weight: "20-30kg",
+      color: "Black",
+      price: 899,
+      image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff"
+    }
+  ],
+
+  features: [
+    "Full Body Workout",
+    "Durable Elastic Material",
+    "Lightweight & Portable",
+    "Suitable for Home & Gym",
+    "Beginner to Advanced Use"
+  ],
+
+  specs: [
+    { label: "Material", value: "Latex" },
+    { label: "Resistance Levels", value: "Light/Medium/Heavy" },
+    { label: "Use", value: "Workout/Yoga/Stretching" },
+    { label: "Portable", value: "Yes" },
+    { label: "Warranty", value: "6 Months" }
+  ]
+}
+
+
+,
+{
+  id: "201",
+  title: "Whey Protein Powder",
+  description: "High quality whey protein for muscle recovery and fitness.",
+  price: 2499,
+  category: "Health",
+  subCategory: "Supplement",
+  image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d",
+  rating: 4.5,
+
+  brand: "Optimum Nutrition",
+  warranty: "No Warranty",
+  stock: 50,
+  discount: 15,
+  delivery: "2-4 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      flavor: "Chocolate",
+      weight: "1kg",
+      price: 2499,
+      image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d"
+    },
+    {
+      flavor: "Vanilla",
+      weight: "1kg",
+      price: 2399,
+      image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d"
+    },
+    {
+      flavor: "Chocolate",
+      weight: "2kg",
+      price: 4599,
+      image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d"
+    }
+  ],
+
+  features: [
+    "High Protein Content",
+    "Muscle Recovery Support",
+    "Easy to Mix",
+    "Great Taste",
+    "Gym & Fitness Use"
+  ],
+
+  specs: [
+    { label: "Protein", value: "24g per scoop" },
+    { label: "Flavors", value: "Chocolate/Vanilla" },
+    { label: "Weight Options", value: "1kg/2kg" },
+    { label: "Use", value: "Muscle Recovery" },
+    { label: "Brand", value: "Optimum Nutrition" }
+  ]
+},{
+  id: "202",
+  title: "Digital Weighing Scale",
+  description: "Accurate digital body weight scale.",
+  price: 1299,
+  category: "Health",
+  subCategory: "Health Monitor",
+  image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5",
+  rating: 4.4,
+
+  brand: "HealthSense",
+  warranty: "1 Year Warranty",
+  stock: 40,
+  discount: 10,
+  delivery: "2-3 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      color: "Black",
+      price: 1299,
+      image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5"
+    },
+    {
+      color: "White",
+      price: 1249,
+      image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5"
+    }
+  ],
+
+  features: [
+    "Accurate Measurement",
+    "Digital Display",
+    "Auto Power Off",
+    "Slim Design",
+    "Home Use"
+  ],
+
+  specs: [
+    { label: "Max Weight", value: "180kg" },
+    { label: "Display", value: "Digital" },
+    { label: "Power", value: "Battery" },
+    { label: "Auto Off", value: "Yes" },
+    { label: "Warranty", value: "1 Year" }
+  ]
+}
+,
+{
+  id: "203",
+  title: "Luxury Perfume",
+  description: "Long lasting luxury fragrance perfume.",
+  price: 1499,
+  category: "Beauty",
+  subCategory: "Makeup",
+  image: "https://images.unsplash.com/photo-1541643600914-78b084683601",
+  rating: 4.5,
+
+  brand: "Skinn",
+  warranty: "No Warranty",
+  stock: 70,
+  discount: 12,
+  delivery: "2-4 Days Delivery",
+  replacement: "No Replacement",
+
+  variants: [
+    {
+      size: "50ml",
+      flavor: "Floral",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1541643600914-78b084683601"
+    },
+    {
+      size: "100ml",
+      flavor: "Floral",
+      price: 1499,
+      image: "https://images.unsplash.com/photo-1541643600914-78b084683601"
+    },
+    {
+      size: "100ml",
+      flavor: "Woody",
+      price: 1599,
+      image: "https://images.unsplash.com/photo-1541643600914-78b084683601"
+    },
+    {
+      size: "150ml",
+      flavor: "Citrus",
+      price: 1799,
+      image: "https://images.unsplash.com/photo-1541643600914-78b084683601"
+    }
+  ],
+
+  features: [
+    "Long Lasting Fragrance",
+    "Premium Quality",
+    "Luxury Perfume",
+    "Travel Friendly Bottle",
+    "Perfect for Daily Use"
+  ],
+
+  specs: [
+    { label: "Fragrance Type", value: "Floral/Woody/Citrus" },
+    { label: "Size Options", value: "50ml/100ml/150ml" },
+    { label: "Long Lasting", value: "Yes" },
+    { label: "Ideal For", value: "Men & Women" },
+    { label: "Brand", value: "Skinn" }
+  ]
+}
+,
+{
+  id: "156",
+  title: "Yoga Mat",
+  description: "Comfortable anti-slip yoga mat for home and gym workout.",
+  price: 999,
+  category: "Health",
+  subCategory: "Fitness",
+  image: "https://images.unsplash.com/photo-1591291621164-2c6367723315",
+  rating: 4.6,
+
+  brand: "Boldfit",
+  material: "EVA Foam",
+  thickness: "6mm",
+  size: "183cm x 61cm",
+  warranty: "6 Months Warranty",
+  stock: 60,
+  discount: 10,
+  delivery: "3-5 Days Delivery",
+  replacement: "7 Days Replacement",
+
+  variants: [
+    {
+      material: "EVA Foam",
+      thickness: "4mm",
+      color: "Blue",
+      price: 699,
+      image: "https://images.unsplash.com/photo-1591291621164-2c6367723315"
+    },
+    {
+      material: "EVA Foam",
+      thickness: "6mm",
+      color: "Black",
+      price: 999,
+      image: "https://images.unsplash.com/photo-1591291621164-2c6367723315"
+    },
+    {
+      material: "TPE",
+      thickness: "6mm",
+      color: "Green",
+      price: 1199,
+      image: "https://images.unsplash.com/photo-1591291621164-2c6367723315"
+    },
+    {
+      material: "Rubber",
+      thickness: "8mm",
+      color: "Purple",
+      price: 1499,
+      image: "https://images.unsplash.com/photo-1591291621164-2c6367723315"
+    }
+  ],
+
+  features: [
+    "Anti-slip Surface",
+    "Soft Cushioning for Joints",
+    "Lightweight & Portable",
+    "Water & Sweat Resistant",
+    "Suitable for Yoga, Gym, Pilates"
+  ],
+
+  specs: [
+    { label: "Material", value: "EVA/TPE/Rubber" },
+    { label: "Thickness", value: "4mm/6mm/8mm" },
+    { label: "Size", value: "183cm x 61cm" },
+    { label: "Anti-slip", value: "Yes" },
+    { label: "Washable", value: "Yes" }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
 ]

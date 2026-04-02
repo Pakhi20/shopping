@@ -277,7 +277,7 @@ export default function HomePage() {
 
   <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
 
-    <Link href="/products/electronics?sub=Mobile">
+    <Link href="/products/electronics?sub=Mobile%20Accessories">
       <div className="bg-white shadow rounded-xl p-4 hover:shadow-lg">
         <img
           src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
@@ -317,7 +317,7 @@ export default function HomePage() {
       </div>
     </Link>
 
-    <Link href="/productDetails/153">
+    <Link href="/productDetails/59">
       <div className="bg-white shadow rounded-xl p-4 hover:shadow-lg">
         <img
           src="https://images.unsplash.com/photo-1589365278144-c9e705f843ba"
@@ -327,7 +327,7 @@ export default function HomePage() {
       </div>
     </Link>
 
-    <Link href="/productDetails/154">
+    <Link href="/productDetails/50">
       <div className="bg-white shadow rounded-xl p-4 hover:shadow-lg">
         <img
           src="https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db"
@@ -337,7 +337,7 @@ export default function HomePage() {
       </div>
     </Link>
 
-    <Link href="/productDetails/155">
+    <Link href="/productDetails/60">
       <div className="bg-white shadow rounded-xl p-4 hover:shadow-lg">
         <img
           src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35"

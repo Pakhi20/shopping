@@ -4,10 +4,33 @@ import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { useCart } from "@/context/CartContext"
 
+interface CartItem {
+  id: string | number
+  title: string
+  image: string
+  price: number
+  quantity: number
+}
+
+interface DeliveryFormState {
+  name: string
+  phone: string
+  pincode: string
+  city: string
+  state: string
+  address: string
+}
+
+interface CartContextType {
+  cart: CartItem[]
+  totalPrice: number
+  clearCart: () => void
+}
+
 export default function CheckoutPage() {
 
   const router = useRouter()
-  const { cart, totalPrice, clearCart } = useCart()
+  const { cart, totalPrice, clearCart } = useCart() as CartContextType
 
   const [name, setName] = useState("")
   const [phone, setPhone] = useState("")

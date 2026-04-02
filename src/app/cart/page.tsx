@@ -32,7 +32,6 @@ export default function CartPage() {
 
   const applyCoupon = () => {
     const code = coupon.trim().toUpperCase();
-
     if (coupons[code]) {
       const discountValue = totalPrice * coupons[code];
       setDiscount(discountValue);
@@ -54,13 +53,25 @@ export default function CartPage() {
 
   const finalPrice = totalPrice - discount;
 
-  // Move to wishlist
-  const moveToWishlist = (item: any) => {
-    addToWishlist(item);
-    removeFromCart(item.id, item.selectedSize, item.selectedColor);
-  };
+  // const moveToWishlist = (item: any) => {
+  //   addToWishlist(item);
+  //   removeFromCart(item.id, item.selectedOptions || {});
+  // };
 
-  // Total items count (quantity wise)
+const moveToWishlist = (item: any) => {
+  addToWishlist({
+    id: item.id,
+    title: item.title,
+    price: item.price,
+    image: item.image,
+    selectedOptions: item.selectedOptions,
+  });
+
+  removeFromCart(item.id, item.selectedOptions);
+};
+
+
+
   const totalItems = cart.reduce(
     (sum: number, item: any) => sum + item.quantity,
     0
@@ -78,7 +89,7 @@ export default function CartPage() {
 
           {cart.length === 0 && (
             <div className="bg-white p-10 rounded-xl shadow text-center">
-              <p className="text-gray-500 mb-4 text-lg">
+              <p className="text-gray-700 mb-4 text-lg">
                 Your cart is empty 🛒
               </p>
               <button
@@ -90,105 +101,96 @@ export default function CartPage() {
             </div>
           )}
 
-          {cart.map((item: any) => (
-            <div
-              key={item.id + item.selectedSize + item.selectedColor}
-              className="bg-white p-5 rounded-xl shadow flex justify-between items-center"
-            >
-              <div className="flex gap-5">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-28 h-28 object-cover rounded-lg"
-                />
+          {cart.map((item: any) => {
+            return (
+              <div
+                key={`${item.id}-${JSON.stringify(item.selectedOptions)}`}
+                className="bg-white p-5 rounded-xl shadow flex justify-between items-center"
+              >
+                <div className="flex gap-5">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-28 h-28 object-cover rounded-lg"
+                  />
 
-                <div>
-                  <h2 className="font-semibold text-lg">
-                    {item.title}
-                  </h2>
+                  <div>
+                    <h2 className="font-semibold text-lg">{item.title}</h2>
 
-                  <p className="text-sm text-gray-600">
-                    Color: {item.selectedColor || "N/A"}
-                  </p>
+                    {/* Selected Options */}
+                    {item.selectedOptions && Object.keys(item.selectedOptions).length > 0 && (
+                      <div className="flex flex-wrap gap-2 mt-1">
+                        {Object.entries(item.selectedOptions).map(([key, value]) =>
+                          value ? (
+                            <span
+                              key={`${key}-${value}`}
+                              className="px-2 py-1 bg-gray-200 text-black-700 text-xs rounded-full"
+                            >
+                              {value && `${key}: ${value}`}
+                            </span>
+                          ) : null
+                        )}
+                      </div>
+                    )}
 
-                  <p className="text-sm text-gray-600">
-                    Size: {item.selectedSize || "N/A"}
-                  </p>
+                    <p className="text-blue-600 font-bold mt-1">
+                      ₹{item.price}
+                    </p>
 
-                  <p className="text-blue-600 font-bold mt-1">
-                    ₹{item.price}
-                  </p>
+                    {/* Quantity Controls */}
+                    <div className="flex items-center gap-3 mt-3">
+                      <button
+                         onClick={() => decreaseQty(item.id, item.selectedOptions)}
+                        
+                        className="bg-gray-200 px-3 py-1 rounded"
+                      >
+                        -
+                      </button>
 
-                  {/* Quantity */}
-                  <div className="flex items-center gap-3 mt-3">
-                    <button
-                      onClick={() =>
-                        decreaseQty(
-                          item.id,
-                          item.selectedSize,
-                          item.selectedColor
-                        )
-                      }
-                      className="bg-gray-200 px-3 py-1 rounded"
-                    >
-                      -
-                    </button>
+                      <span className="font-medium">{item.quantity}</span>
 
-                    <span className="font-medium">
-                      {item.quantity}
-                    </span>
+                      <button
+                        onClick={() =>
+                          increaseQty(item.id, item.selectedOptions || {})
+                        }
+                        className="bg-gray-200 px-3 py-1 rounded"
+                      >
+                        +
+                      </button>
+                    </div>
 
-                    <button
-                      onClick={() =>
-                        increaseQty(
-                          item.id,
-                          item.selectedSize,
-                          item.selectedColor
-                        )
-                      }
-                      className="bg-gray-200 px-3 py-1 rounded"
-                    >
-                      +
-                    </button>
-                  </div>
+                    {/* Remove + Wishlist */}
+                    <div className="flex gap-4 mt-2">
+                      <button
+                        onClick={() =>
+                          removeFromCart(item.id, item.selectedOptions || {})
+                        }
+                        className="text-red-500 text-sm hover:underline"
+                      >
+                        Remove
+                      </button>
 
-                  {/* Remove + Wishlist */}
-                  <div className="flex gap-4 mt-2">
-                    <button
-                      onClick={() =>
-                        removeFromCart(
-                          item.id,
-                          item.selectedSize,
-                          item.selectedColor
-                        )
-                      }
-                      className="text-red-500 text-sm hover:underline"
-                    >
-                      Remove
-                    </button>
-
-                    <button
-                      onClick={() => moveToWishlist(item)}
-                      className="text-pink-500 text-sm hover:underline"
-                    >
-                      Move to Wishlist
-                    </button>
+                      <button
+                        onClick={() => moveToWishlist(item)}
+                        className="text-pink-500 text-sm hover:underline"
+                      >
+                        Move to Wishlist
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="font-semibold text-lg">
-                ₹{item.price * item.quantity}
+                <div className="font-semibold text-lg">
+                  ₹{item.price * item.quantity}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* RIGHT SIDE */}
         <div className="bg-white p-6 rounded-xl shadow h-fit sticky top-10">
-          <h2 className="text-xl font-semibold mb-4">
-            Price Details
-          </h2>
+          <h2 className="text-xl font-semibold mb-4">Price Details</h2>
 
           <div className="flex justify-between mb-2">
             <span>Price ({totalItems} items)</span>
@@ -216,10 +218,7 @@ export default function CartPage() {
 
           {/* Coupon */}
           <div className="mt-6">
-            <label className="block mb-2 font-medium">
-              Apply Coupon
-            </label>
-
+            <label className="block mb-2 font-medium">Apply Coupon</label>
             <div className="flex gap-2">
               <input
                 value={coupon}
@@ -236,9 +235,7 @@ export default function CartPage() {
               </button>
             </div>
 
-            {message && (
-              <p className="text-sm mt-2">{message}</p>
-            )}
+            {message && <p className="text-sm mt-2">{message}</p>}
           </div>
 
           <button
@@ -259,493 +256,6 @@ export default function CartPage() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// "use client";
-
-// import { useState } from "react";
-// import { useCart } from "@/context/CartContext";
-// import { useRouter } from "next/navigation";
-
-
-// export default function CartPage() {
-//   const router = useRouter();
-
-//   const {
-//     cart,
-//     removeFromCart,
-//     increaseQty,
-//     decreaseQty,
-//     totalPrice,
-//     clearCart,
-//   } = useCart();
-
-//   const [coupon, setCoupon] = useState<string>("");
-//   const [discount, setDiscount] = useState<number>(0);
-//   const [message, setMessage] = useState<string>("");
-//   const [isApplied, setIsApplied] = useState<boolean>(false);
-
-//   // ✅ FIXED TYPE
-//   const coupons: Record<string, number> = {
-//     FLIP10: 0.1,
-//     SAVE20: 0.2,
-//     NEWUSER: 0.15,
-//   };
-
-//   const applyCoupon = () => {
-//     const code = coupon.trim().toUpperCase();
-
-//     if (coupons[code]) {
-//       const discountValue = totalPrice * coupons[code];
-
-//       setDiscount(discountValue);
-//       setMessage(`✅ ${coupons[code] * 100}% discount applied`);
-//       setIsApplied(true);
-//     } else {
-//       setDiscount(0);
-//       setMessage("❌ Invalid coupon code");
-//       setIsApplied(false);
-//     }
-//   };
-
-//   const removeCoupon = () => {
-//     setCoupon("");
-//     setDiscount(0);
-//     setIsApplied(false);
-//     setMessage("Coupon removed");
-//   };
-
-//   const finalPrice = totalPrice - discount;
-
-//   function moveToWishlist(id: any): void {
-//     throw new Error("Function not implemented.");
-//   }
-//     const [selectedSizes, setSelectedSizes] = useState<{ [key: string]: string }>({});
-//     const handleSizeChange = (itemId: string, size: string) => {
-//   setSelectedSizes((prev) => ({
-//     ...prev,
-//     [itemId]: size,
-//   }));
-// };
-
-//   return (
-//     <div className="bg-gray-100 min-h-screen py-10 px-4">
-//       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-//      {/* <button>
-//   Back to {product?.type}
-// </button> */}
-//         {/* LEFT SIDE */}
-//         <div className="md:col-span-2 space-y-6">
-//           <h1 className="text-3xl font-bold">
-//             My Cart ({cart.length})
-//           </h1>
-
-//           {cart.length === 0 && (
-//             <div className="bg-white p-10 rounded-xl shadow text-center">
-//               <p className="text-gray-500 mb-4 text-lg">
-//                 Your cart is empty 🛒
-//               </p>
-//               <button
-//                 onClick={() => router.push("/")}
-//                 className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
-//               >
-//                 Continue Shopping
-//               </button>
-//             </div>
-//           )}
-
-//           {cart.map((item: any) => (
-//             <div
-//               key={item.id + item.selectedSize}
-//               className="bg-white p-5 rounded-xl shadow flex justify-between items-center"
-//             >
-//               <div className="flex gap-5">
-//                 <img
-//                   src={item.image}
-//                   alt={item.title}
-//                   className="w-28 h-28 object-cover rounded-lg"
-//                 />
-
-//                 <div>
-//                   <h2 className="font-semibold text-lg">
-//                     {item.title}
-//                   </h2>
-
-//                   {/* <p className="text-gray-500 text-sm">
-//                     Size: {item.selectedSize || "N/A"}
-//                   </p> */}
-
-//                   <p className="text-blue-600 font-bold mt-1">
-//                     ₹{item.price}
-//                   </p>
-
-//                   {/* Quantity */}
-//                   <div className="flex items-center gap-3 mt-3">
-//                     <button
-//                       onClick={() => decreaseQty(item.id)}
-//                       className="bg-gray-200 px-3 py-1 rounded"
-//                     >
-//                       -
-//                     </button>
-
-//                     <span className="font-medium">
-//                       {item.quantity}
-//                     </span>
-
-//                     <button
-//                       onClick={() => increaseQty(item.id)}
-//                       className="bg-gray-200 px-3 py-1 rounded"
-//                     >
-//                       +
-//                     </button>
-//                   </div>
-
-//                   {/* Size Selection */}
-// {item.sizes && (
-//   <div className="mt-3">
-//     <h3 className="text-sm font-medium">Select Size</h3>
-
-//     <div className="flex gap-2 mt-2">
-//       {item.sizes.map((size: string) => (
-//         <button
-//           key={size}
-//           onClick={() => handleSizeChange(item.id, size)}
-//           className={`border px-3 py-1 rounded text-sm ${
-//             selectedSizes[item.id] === size
-//               ? "border-blue-500 bg-blue-100"
-//               : "border-gray-300"
-//           }`}
-//         >
-//           {size}
-//         </button>
-//       ))}
-//     </div>
-//   </div>
-// )}
-
-
-
-// <p className="text-sm text-gray-600">
-//   Size: {item.selectedSize || "N/A"}
-// </p>
-
-// <p className="text-sm text-gray-600">
-//   Quantity: {item.quantity}
-// </p>
-
-
-//   {/* <div className="flex gap-3">
-//     <span>Select the size</span>
-//     {["S", "M", "L", "XL", "XXL"].map((size) => (
-//       <div
-//         key={size}
-//         className="cursor-pointer border border-gray-300 rounded-md px-4 py-2 text-sm hover:border-gray-500"
-//       >
-//         {size}
-//       </div>
-//     ))}
-//   </div> */}
-
-
-
-
-
-
-
-//                   {/* Remove */}
-//                   <div className="flex gap-4 mt-2">
-//   <button
-//     onClick={() => removeFromCart(item.id)}
-//     className="text-red-500 text-sm hover:underline"
-//   >
-//     Remove
-//   </button>
-
-//   <button
-//     onClick={() => moveToWishlist(item.id)}
-//     className="text-red-500 text-sm hover:underline"
-//   >
-//     Move to Wishlist
-//   </button>
-// </div>
-//                 </div>
-//               </div>
-
-//               <div className="font-semibold text-lg">
-//                 ₹{item.price * item.quantity}
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-
-//         {/* RIGHT SIDE */}
-//         <div className="bg-white p-6 rounded-xl shadow h-fit sticky top-10">
-//           <h2 className="text-xl font-semibold mb-4">
-//             Price Details
-//           </h2>
-
-//           <div className="flex justify-between mb-2">
-//             <span>Price ({cart.length} items)</span>
-//             <span>₹{totalPrice}</span>
-//           </div>
-
-//           {discount > 0 && (
-//             <div className="flex justify-between text-green-600 mb-2">
-//               <span>Discount</span>
-//               <span>-₹{discount}</span>
-//             </div>
-//           )}
-
-//           <div className="flex justify-between text-green-600 mb-2">
-//             <span>Delivery</span>
-//             <span>Free</span>
-//           </div>
-
-//           <hr className="my-3" />
-
-//           <div className="flex justify-between text-lg font-bold">
-//             <span>Total</span>
-//             <span>₹{finalPrice}</span>
-//           </div>
-
-//           {/* Coupon */}
-//           <div className="mt-6">
-//             <label className="block mb-2 font-medium">
-//               Apply Coupon
-//             </label>
-
-//             <div className="flex gap-2">
-//               <input
-//                 value={coupon}
-//                 onChange={(e) => setCoupon(e.target.value)}
-//                 placeholder="Enter code"
-//                 className="flex-1 border px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-//               />
-
-//               <button
-//                 onClick={isApplied ? removeCoupon : applyCoupon}
-//                 className="bg-pink-500 text-white px-4 rounded-lg hover:bg-pink-600"
-//               >
-//                 {isApplied ? "Remove" : "Apply"}
-//               </button>
-//             </div>
-
-//             {message && (
-//               <p className="text-sm mt-2">{message}</p>
-//             )}
-//           </div>
-
-//           {/* Buttons */}
-//           <button
-//             onClick={() => router.push("/checkout")}
-//             className="w-full mt-6 bg-green-600 text-white py-3 rounded-lg hover:bg-green-700"
-//           >
-//             Place Order
-//           </button>
-
-//           <button
-//             onClick={clearCart}
-//             className="w-full mt-3 text-sm text-red-500 hover:underline"
-//           >
-//             Clear Cart
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

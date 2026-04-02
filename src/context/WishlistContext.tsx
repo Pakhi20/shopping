@@ -1,50 +1,64 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
-const WishlistContext = createContext<any>(null);
+interface WishlistItem {
+  id: string;
+  title: string;
+  price: number;
+  image: string;
+  selectedOptions?: any;
+}
+
+interface WishlistContextType {
+  wishlist: WishlistItem[];
+  addToWishlist: (item: WishlistItem) => void;
+  removeFromWishlist: (id: string, selectedOptions?: any) => void;
+}
+
+const WishlistContext = createContext<WishlistContextType | null>(null);
 
 export const WishlistProvider = ({ children }: any) => {
-  const [wishlist, setWishlist] = useState<any[]>([]);
+  const [wishlist, setWishlist] = useState<WishlistItem[]>([]);
 
+  // Load from localStorage
   useEffect(() => {
-    const storedWishlist = localStorage.getItem("wishlist");
-    if (storedWishlist) {
-      setWishlist(JSON.parse(storedWishlist));
+    const stored = localStorage.getItem("wishlistItems");
+    if (stored) {
+      setWishlist(JSON.parse(stored));
     }
   }, []);
 
-  const addToWishlist = (product: any) => {
-    const exists = wishlist.find(
-      (item) =>
-        item.id === product.id &&
-        item.selectedColor === product.selectedColor &&
-        item.selectedSize === product.selectedSize
+  // Save to localStorage
+  useEffect(() => {
+    localStorage.setItem("wishlistItems", JSON.stringify(wishlist));
+  }, [wishlist]);
+
+  // Add
+  const addToWishlist = (item: WishlistItem) => {
+    const exists = wishlist.some(
+      (w) =>
+        w.id === item.id &&
+        JSON.stringify(w.selectedOptions) ===
+          JSON.stringify(item.selectedOptions)
     );
 
-    if (exists) return;
-
-    const updatedWishlist = [...wishlist, product];
-    setWishlist(updatedWishlist);
-    localStorage.setItem("wishlist", JSON.stringify(updatedWishlist));
+    if (!exists) {
+      setWishlist([...wishlist, item]);
+    }
   };
 
-  const removeFromWishlist = (
-    id: string,
-    color?: string,
-    size?: string
-  ) => {
-    const updatedWishlist = wishlist.filter(
+  // Remove
+  const removeFromWishlist = (id: string, selectedOptions?: any) => {
+    const filtered = wishlist.filter(
       (item) =>
         !(
           item.id === id &&
-          item.selectedColor === color &&
-          item.selectedSize === size
+          JSON.stringify(item.selectedOptions) ===
+            JSON.stringify(selectedOptions)
         )
     );
-
-    setWishlist(updatedWishlist);
-    localStorage.setItem("wishlist", JSON.stringify(updatedWishlist));
+    setWishlist(filtered);
   };
 
   return (
@@ -56,45 +70,14 @@ export const WishlistProvider = ({ children }: any) => {
   );
 };
 
-export const useWishlist = () => useContext(WishlistContext);
+export const useWishlist = () => useContext(WishlistContext)!;
 
 
 
-// "use client"
 
-// import { createContext, useContext, useState, useEffect } from "react"
 
-// const WishlistContext = createContext<any>(null)
 
-// export const WishlistProvider = ({ children }: any) => {
-//   const [wishlist, setWishlist] = useState<any[]>([])
 
-//   useEffect(() => {
-//     const storedWishlist = localStorage.getItem("wishlist")
-//     if (storedWishlist) {
-//       setWishlist(JSON.parse(storedWishlist))
-//     }
-//   }, [])
 
-//   const addToWishlist = (product: any) => {
-//     const updatedWishlist = [...wishlist, product]
-//     setWishlist(updatedWishlist)
-//     localStorage.setItem("wishlist", JSON.stringify(updatedWishlist))
-//   }
 
-//   const removeFromWishlist = (id: string) => {
-//     const updatedWishlist = wishlist.filter((item) => item.id !== id)
-//     setWishlist(updatedWishlist)
-//     localStorage.setItem("wishlist", JSON.stringify(updatedWishlist))
-//   }
 
-//   return (
-//     <WishlistContext.Provider
-//       value={{ wishlist, addToWishlist, removeFromWishlist }}
-//     >
-//       {children}
-//     </WishlistContext.Provider>
-//   )
-// }
-
-// export const useWishlist = () => useContext(WishlistContext)

@@ -18,7 +18,7 @@ export default function OfferCarousel() {
       title: "Big Electronics Sale",
       discount: "Up to 50% OFF",
       image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
-      link: "/products/electronics"
+      link: "/products/electronics?sub=Mobile"
     },
 
     {
@@ -53,7 +53,7 @@ export default function OfferCarousel() {
       title: "Books Festival",
       discount: "Flat 30% OFF",
       image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-      link: "/products/books"
+      link: "/products/books/education"
     },
 
     {

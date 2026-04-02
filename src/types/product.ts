@@ -56,6 +56,8 @@ export interface Product {
   waterResistant?: string;
   ageGroup?: string;
   skinType?: string;
+  
+ 
   flavor?: string;
 
   // Home Electronics
@@ -93,15 +95,27 @@ variants: Variant[];
 }
 
 // ✅ Cart Item (Updated)
+// export interface CartItem {
+//   id: string;
+//   title: string;
+//   price: number;
+//   image: string;
+//   quantity: number;
+
+//   selectedSize?: string;
+//   selectedColor?: string;
+// }
+
+// ✅ Cart Item (Universal Variant)
 export interface CartItem {
   id: string;
   title: string;
   price: number;
   image: string;
   quantity: number;
-
-  selectedSize?: string;
-  selectedColor?: string;
+  selectedOptions: {
+    [key: string]: string;
+  };
 }
 
 
@@ -197,106 +211,13 @@ export interface CartItem {
 
 
 
-// // ✅ Variant Type
-// export interface Variant {
-//   color?: string;
-//   price: number;
-//   image?: string;
-// }
-
-// // ✅ Product Type
-// export interface Product {
-//   id: string;
-//   title: string;
-//   description: string;
-//   price: number;
-//   category: string;
-//   subCategory: string;
-//   image: string;
-//   rating: number;
-
-//   // Common
-//   brand?: string;
-//   color?: string;
-//   stock?: number;
-//   discount?: number;
-//   delivery?: string;
-//   replacement?: string;
-//   model?: string;
-//   storage?: string;
-//   ram?: string;
-//   display?: string;
-//   battery?: string;
-//   processor?: string;
-//   graphics?: string;
-//   controllers?: string;
-//   quantity?: string;
-//   author?: string;
-//   language?: string;
-//   pages?: number;
-//   publisher?: string;
-//   pieces?: number;
-//   range?: string;
-//   size?: string;
-//   camera?: string;
-//   warranty?: string;
-//   sensor?: string;
-//   video?: string;
-//   hairType?: string; 
-//   bulbType?: string;
-//   weightSet?: string;
-//   players?: string;
-//   strings?: string;
-// connectivity?: string;
-//   waterResistant?: string;
-//   ageGroup?: string;
-//   skinType?: string;
-//   flavor?: string;
 
-//   // Home Electronics
-//   capacity?: string;
-//   power?: string;
-//   energyRating?: string;
-//   inverter?: string;
-//   screenSize?: string;
-//   smartTV?: string;
-//   resolution?: string;
 
-//   // Fitness / Sports
-//   weight?: string;
-//   thickness?: string;
-//   motor?: string;
-//   maxWeight?: string;
-//   type?: string;
-//   // Fashion
-//   fabric?: string;
-//   sizes?: string[];
 
-//   // Extra fields (keep if needed)
-//   material?: string;
 
-//   // Flipkart style
-//   features?: string[];
-//   specs?: {
-//     label: string;
-//     value: string;
-//   }[];
 
-//   // ✅ Variants (REQUIRED)
-//   variants: Variant[];
-// }
 
-// // ✅ Cart Item (IMPORTANT FIX)
-// export interface CartItem {
-//   id: string;
-//   title: string;
-//   price: number;
-//   image: string;
-//   quantity: number;
 
-//   selectedSize?: string;
-//   selectedColor?: string;
-// }
 
 
 
@@ -335,113 +256,3 @@ export interface CartItem {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export interface Product {
-//   id: string
-//   title: string
-//   description: string
-//   price: number
-//   category: string
-//   subCategory: string
-//   image: string
-//   rating: number
-
-
-//   // Optional fields
-//   brand?: string
-//   material?: string
-//   warranty?: string
-//   author?: string
-//   pages?: number
-
-//    // NEW
-//   features?: string[]
-// }
